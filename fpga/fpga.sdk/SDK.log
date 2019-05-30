@@ -1,0 +1,15 @@
+11:02:33 INFO  : Launching XSDB server: xsdb.bat -interactive F:\Programdata\CNNPR\fpga\fpga.sdk\temp_xsdb_launch_script.tcl
+11:02:35 INFO  : XSDB server has started successfully.
+11:02:35 INFO  : Processing command line option -hwspec F:/Programdata/CNNPR/fpga/fpga.sdk/design_1_wrapper.hdf.
+17:05:05 INFO  : Launching XSDB server: xsdb.bat -interactive F:\Programdata\CNNPR\fpga\fpga.sdk\temp_xsdb_launch_script.tcl
+17:05:07 INFO  : XSDB server has started successfully.
+17:05:10 INFO  : Processing command line option -hwspec F:/Programdata/CNNPR/fpga/fpga.sdk/design_1_wrapper.hdf.
+17:05:11 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+17:05:14 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1553830290844,  Project:1553651174465
+17:05:14 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from F:/Programdata/CNNPR/fpga/fpga.sdk/design_1_wrapper.hdf.
+17:05:14 INFO  : Copied contents of F:/Programdata/CNNPR/fpga/fpga.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+17:05:18 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:05:25 INFO  : 
+17:05:25 INFO  : Updating hardware inferred compiler options for test.
+17:05:25 INFO  : Clearing existing target manager status.
+17:07:16 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

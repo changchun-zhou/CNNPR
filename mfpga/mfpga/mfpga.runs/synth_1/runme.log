@@ -1,0 +1,367 @@
+
+*** Running vivado
+    with args -log mfpga.vds -m64 -mode batch -messageDb vivado.pb -notrace -source mfpga.tcl
+
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source mfpga.tcl -notrace
+Command: synth_design -top mfpga -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 26536 
+WARNING: [Synth 8-2611] redeclaration of ansi port clk is not allowed [F:/Programdata/CNNPR/mfpga/mfpga.v:15]
+WARNING: [Synth 8-2611] redeclaration of ansi port reset is not allowed [F:/Programdata/CNNPR/mfpga/mfpga.v:16]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_rd_req is not allowed [F:/Programdata/CNNPR/mfpga/mfpga.v:17]
+WARNING: [Synth 8-2611] redeclaration of ansi port s_ready is not allowed [F:/Programdata/CNNPR/mfpga/mfpga.v:18]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_clk is not allowed [F:/Programdata/CNNPR/mfpga/mfpga.v:19]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_wr_req is not allowed [F:/Programdata/CNNPR/mfpga/mfpga.v:20]
+WARNING: [Synth 8-2611] redeclaration of ansi port m_rd_req is not allowed [F:/Programdata/CNNPR/mfpga/mfpga.v:21]
+WARNING: [Synth 8-976] m_rd_req has already been declared [F:/Programdata/CNNPR/mfpga/mfpga.v:21]
+WARNING: [Synth 8-2654] second declaration of m_rd_req ignored [F:/Programdata/CNNPR/mfpga/mfpga.v:21]
+INFO: [Synth 8-994] m_rd_req is declared here [F:/Programdata/CNNPR/mfpga/mfpga.v:17]
+WARNING: [Synth 8-2611] redeclaration of ansi port data_ov is not allowed [F:/Programdata/CNNPR/mfpga/mfpga.v:22]
+WARNING: [Synth 8-2611] redeclaration of ansi port data_out is not allowed [F:/Programdata/CNNPR/mfpga/mfpga.v:23]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 283.438 ; gain = 76.434
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mfpga' [F:/Programdata/CNNPR/mfpga/mfpga.v:3]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/Programdata/CNNPR/mfpga/mfpga.v:15]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/Programdata/CNNPR/mfpga/mfpga.v:16]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/Programdata/CNNPR/mfpga/mfpga.v:17]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/Programdata/CNNPR/mfpga/mfpga.v:18]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/Programdata/CNNPR/mfpga/mfpga.v:19]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/Programdata/CNNPR/mfpga/mfpga.v:20]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/Programdata/CNNPR/mfpga/mfpga.v:21]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/Programdata/CNNPR/mfpga/mfpga.v:22]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/Programdata/CNNPR/mfpga/mfpga.v:23]
+INFO: [Synth 8-638] synthesizing module 'fifo' [F:/Programdata/CNNPR/mfpga/fifo.v:2]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+	Parameter INIT bound to: 64'b0110100101101110011010010111010000101110011011010110100101100110 
+	Parameter ADDR_WIDTH bound to: 10 - type: integer 
+	Parameter RAM_DEPTH bound to: 1024 - type: integer 
+	Parameter INITIALIZE_FIFO bound to: no - type: string 
+	Parameter TYPE bound to: MLAB - type: string 
+INFO: [Synth 8-256] done synthesizing module 'fifo' (1#1) [F:/Programdata/CNNPR/mfpga/fifo.v:2]
+INFO: [Synth 8-256] done synthesizing module 'mfpga' (2#1) [F:/Programdata/CNNPR/mfpga/mfpga.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 302.195 ; gain = 95.191
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 302.195 ; gain = 95.191
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [F:/Programdata/CNNPR/mfpga/fpga.xdc]
+Finished Parsing XDC File [F:/Programdata/CNNPR/mfpga/fpga.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/Programdata/CNNPR/mfpga/fpga.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mfpga_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/mfpga_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 705.207 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 705.207 ; gain = 498.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 705.207 ; gain = 498.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 705.207 ; gain = 498.203
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [F:/Programdata/CNNPR/mfpga/fifo.v:50]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 705.207 ; gain = 498.203
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 3     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
++---RAMs : 
+	              32K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module fifo 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 3     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
++---RAMs : 
+	              32K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 705.207 ; gain = 498.203
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 705.207 ; gain = 498.203
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 705.207 ; gain = 498.203
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping  Report (see note below)
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|fifo        | mem_reg    | 1 K x 32(READ_FIRST)   | W |   | 1 K x 32(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 705.207 ; gain = 498.203
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 705.207 ; gain = 498.203
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 705.207 ; gain = 498.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 705.207 ; gain = 498.203
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'axi_rd_buffer/rd_pointer_reg[0]' (FDRE) to 'axi_rd_buffer/rd_pointer_reg_rep[0]'
+INFO: [Synth 8-3886] merging instance 'axi_rd_buffer/rd_pointer_reg[1]' (FDRE) to 'axi_rd_buffer/rd_pointer_reg_rep[1]'
+INFO: [Synth 8-3886] merging instance 'axi_rd_buffer/rd_pointer_reg[2]' (FDRE) to 'axi_rd_buffer/rd_pointer_reg_rep[2]'
+INFO: [Synth 8-3886] merging instance 'axi_rd_buffer/rd_pointer_reg[3]' (FDRE) to 'axi_rd_buffer/rd_pointer_reg_rep[3]'
+INFO: [Synth 8-3886] merging instance 'axi_rd_buffer/rd_pointer_reg[4]' (FDRE) to 'axi_rd_buffer/rd_pointer_reg_rep[4]'
+INFO: [Synth 8-3886] merging instance 'axi_rd_buffer/rd_pointer_reg[5]' (FDRE) to 'axi_rd_buffer/rd_pointer_reg_rep[5]'
+INFO: [Synth 8-3886] merging instance 'axi_rd_buffer/rd_pointer_reg[6]' (FDRE) to 'axi_rd_buffer/rd_pointer_reg_rep[6]'
+INFO: [Synth 8-3886] merging instance 'axi_rd_buffer/rd_pointer_reg[7]' (FDRE) to 'axi_rd_buffer/rd_pointer_reg_rep[7]'
+INFO: [Synth 8-3886] merging instance 'axi_rd_buffer/rd_pointer_reg[8]' (FDRE) to 'axi_rd_buffer/rd_pointer_reg_rep[8]'
+INFO: [Synth 8-3886] merging instance 'axi_rd_buffer/rd_pointer_reg[9]' (FDRE) to 'axi_rd_buffer/rd_pointer_reg_rep[9]'
+WARNING: [Synth 8-3332] Sequential element (rd_pointer_reg[0]) is unused and will be removed from module fifo.
+WARNING: [Synth 8-3332] Sequential element (rd_pointer_reg[1]) is unused and will be removed from module fifo.
+WARNING: [Synth 8-3332] Sequential element (rd_pointer_reg[2]) is unused and will be removed from module fifo.
+WARNING: [Synth 8-3332] Sequential element (rd_pointer_reg[3]) is unused and will be removed from module fifo.
+WARNING: [Synth 8-3332] Sequential element (rd_pointer_reg[4]) is unused and will be removed from module fifo.
+WARNING: [Synth 8-3332] Sequential element (rd_pointer_reg[5]) is unused and will be removed from module fifo.
+WARNING: [Synth 8-3332] Sequential element (rd_pointer_reg[6]) is unused and will be removed from module fifo.
+WARNING: [Synth 8-3332] Sequential element (rd_pointer_reg[7]) is unused and will be removed from module fifo.
+WARNING: [Synth 8-3332] Sequential element (rd_pointer_reg[8]) is unused and will be removed from module fifo.
+WARNING: [Synth 8-3332] Sequential element (rd_pointer_reg[9]) is unused and will be removed from module fifo.
+INFO: [Synth 8-4480] The timing for the instance mem_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 705.207 ; gain = 498.203
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 705.207 ; gain = 498.203
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 705.207 ; gain = 498.203
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin m_wr_req_inferred:in0 to constant 0
+WARNING: [Synth 8-5396] Clock pin CLKARDCLK has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [F:/Programdata/CNNPR/mfpga/fifo.v:50]
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 705.207 ; gain = 498.203
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 705.207 ; gain = 498.203
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 705.207 ; gain = 498.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 705.207 ; gain = 498.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 705.207 ; gain = 498.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 705.207 ; gain = 498.203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |     3|
+|3     |LUT1     |     6|
+|4     |LUT2     |    14|
+|5     |LUT3     |     4|
+|6     |LUT4     |     7|
+|7     |LUT5     |     5|
+|8     |LUT6     |     9|
+|9     |RAMB36E1 |     1|
+|10    |FDRE     |    31|
+|11    |IBUF     |    37|
+|12    |OBUF     |     3|
++------+---------+------+
+
+Report Instance Areas: 
++------+----------------+-------+------+
+|      |Instance        |Module |Cells |
++------+----------------+-------+------+
+|1     |top             |       |   121|
+|2     |  axi_rd_buffer |fifo   |    77|
++------+----------------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 705.207 ; gain = 498.203
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 705.207 ; gain = 95.191
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 705.207 ; gain = 498.203
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 41 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+38 Infos, 23 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 705.207 ; gain = 498.203
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 705.207 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 03 15:01:46 2019...

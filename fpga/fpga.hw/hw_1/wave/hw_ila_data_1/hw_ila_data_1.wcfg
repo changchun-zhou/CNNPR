@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/Programdata/CNNPR/fpga/fpga.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1024001fs"></ZoomEndTime>
+      <Cursor1Time time="530000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="33" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="FCLK_CLK0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FCLK_CLK0</obj_property>
+      <obj_property name="ObjectShortName">FCLK_CLK0</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="FCLK_RESET0_N" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">FCLK_RESET0_N</obj_property>
+      <obj_property name="ObjectShortName">FCLK_RESET0_N</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="S_AXI_HP0_arready" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">S_AXI_HP0_arready</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_HP0_arready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="S_AXI_HP0_arvalid" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">S_AXI_HP0_arvalid</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_HP0_arvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="S_AXI_HP0_awready" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">S_AXI_HP0_awready</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_HP0_awready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="S_AXI_HP0_awvalid" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">S_AXI_HP0_awvalid</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_HP0_awvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="S_AXI_HP0_bresp" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">S_AXI_HP0_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_HP0_bresp[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="S_AXI_HP0_rdata" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">S_AXI_HP0_rdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_HP0_rdata[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="S_AXI_HP0_rdata_1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">S_AXI_HP0_rdata_1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_HP0_rdata_1[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="S_AXI_HP0_rdata_2" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">S_AXI_HP0_rdata_2[53:53]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_HP0_rdata_2[53:53]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="S_AXI_HP0_rlast" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">S_AXI_HP0_rlast</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_HP0_rlast</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="S_AXI_HP0_rready" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">S_AXI_HP0_rready</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_HP0_rready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="S_AXI_HP0_rresp" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">S_AXI_HP0_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_HP0_rresp[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="S_AXI_HP0_rvalid" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">S_AXI_HP0_rvalid</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_HP0_rvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="S_AXI_HP0_wdata" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">S_AXI_HP0_wdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_HP0_wdata[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="S_AXI_HP0_wlast" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">S_AXI_HP0_wlast</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_HP0_wlast</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="S_AXI_HP0_wready" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">S_AXI_HP0_wready</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_HP0_wready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="S_AXI_HP0_wvalid" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">S_AXI_HP0_wvalid</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_HP0_wvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_mem_controller/M_AXI_ARADDR" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pl_mem_controller/M_AXI_ARADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_ARADDR[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_mem_controller/axi_rd_buffer_push" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pl_mem_controller/axi_rd_buffer_push</obj_property>
+      <obj_property name="ObjectShortName">axi_rd_buffer_push</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_mem_controller/axi_rd_ready" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pl_mem_controller/axi_rd_ready</obj_property>
+      <obj_property name="ObjectShortName">axi_rd_ready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_mem_controller/rd_addr" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pl_mem_controller/rd_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_mem_controller/rd_ready" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pl_mem_controller/rd_ready</obj_property>
+      <obj_property name="ObjectShortName">rd_ready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_mem_controller/rd_req" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pl_mem_controller/rd_req</obj_property>
+      <obj_property name="ObjectShortName">rd_req</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_mem_controller/rd_req_size" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pl_mem_controller/rd_req_size[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_req_size[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_mem_controller/rd_rvalid_size" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pl_mem_controller/rd_rvalid_size[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_rvalid_size[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_mem_controller/read_full" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pl_mem_controller/read_full</obj_property>
+      <obj_property name="ObjectShortName">read_full</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_mem_controller/M_AXI_AWADDR" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pl_mem_controller/M_AXI_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_AWADDR[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_mem_controller/u_axim/AXI_GEN[0].u_axim/wchannel_req_buf_full" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pl_mem_controller/u_axim/AXI_GEN[0].u_axim/wchannel_req_buf_full</obj_property>
+      <obj_property name="ObjectShortName">wchannel_req_buf_full</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_mem_controller/u_axim/AXI_GEN[0].u_axim/write_state_wire" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pl_mem_controller/u_axim/AXI_GEN[0].u_axim/write_state_wire[1:0]</obj_property>
+      <obj_property name="ObjectShortName">write_state_wire[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ila_0_wr_req" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u_ila_0_wr_req</obj_property>
+      <obj_property name="ObjectShortName">u_ila_0_wr_req</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_mem_controller/u_axim/AXI_GEN[0].u_axim/wchannel_req_buf_full" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pl_mem_controller/u_axim/AXI_GEN[0].u_axim/wchannel_req_buf_full</obj_property>
+      <obj_property name="ObjectShortName">wchannel_req_buf_full</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="pl_mem_controller/u_axim/AXI_GEN[0].u_axim/write_state_wire" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">pl_mem_controller/u_axim/AXI_GEN[0].u_axim/write_state_wire[1:0]</obj_property>
+      <obj_property name="ObjectShortName">write_state_wire[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+</wave_config>
