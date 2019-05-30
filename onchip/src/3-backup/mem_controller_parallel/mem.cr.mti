@@ -1,0 +1,57 @@
+F:/Programdata/CNNPR/source/src/column.v {1 {vlog -work work -vopt F:/Programdata/CNNPR/source/src/column.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module column
+
+Top level modules:
+	column
+
+} {} {}} F:/Programdata/CNNPR/source/src/mem_controller.v {1 {vlog -work work -vopt F:/Programdata/CNNPR/source/src/mem_controller.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mem_controller
+
+Top level modules:
+	mem_controller
+
+} {} {}} F:/Programdata/CNNPR/source/src/mem_controller_tb.v {1 {vlog -work work -vopt {F:\Programdata\CNNPR\source\src\mem_controller_tb.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mem_controller_tb
+
+Top level modules:
+	mem_controller_tb
+
+} {} {}} F:/Programdata/CNNPR/source/src/block.v {1 {vlog -work work -vopt F:/Programdata/CNNPR/source/src/block.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module block
+
+Top level modules:
+	block
+
+} {} {}} F:/Programdata/CNNPR/source/src/sparsity.v {1 {vlog -work work -vopt F:/Programdata/CNNPR/source/src/sparsity.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module sparsity
+
+Top level modules:
+	sparsity
+
+} {} {}} F:/Programdata/CNNPR/source/src/cache.v {1 {vlog -work work -vopt F:/Programdata/CNNPR/source/src/cache.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module cache
+
+Top level modules:
+	cache
+
+} {} {}} F:/Programdata/CNNPR/source/src/fifo.v {1 {vlog -work work -vopt F:/Programdata/CNNPR/source/src/fifo.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module fifo
+
+Top level modules:
+	fifo
+
+} {} {}} F:/Programdata/CNNPR/source/src/ram.v {1 {vlog -work work -vopt F:/Programdata/CNNPR/source/src/ram.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}}

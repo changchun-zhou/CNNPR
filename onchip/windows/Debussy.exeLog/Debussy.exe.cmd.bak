@@ -1,0 +1,3 @@
+srcSourceCodeView
+debImport "-2001" "-f" "vf"
+debLoadSimResult F:\1-DL_hardware\CNNPR\onchip\windows\mem_controller_tb.fsdb

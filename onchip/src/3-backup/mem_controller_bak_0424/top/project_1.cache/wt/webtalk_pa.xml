@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Tue Apr 23 21:33:53 2019">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="03e371fa0f304d9b90a550e9b3ca7bba" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="2" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="FINISH, Finish" value="3" type="GuiResourceData"/>
+<property name="NEXT, Next " value="6" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AbstractFileView_RELOAD, Reload" value="5" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Non-module Files], 4" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files, mem_controller.v], 2, false" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files, mem_controller.v], 2, false, false, false, false, false, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files, parallel.v], 2, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files, parallel.v], 2, false, false, false, false, false, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files, sparsity.v], 3, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files, sparsity.v], 3, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Syntax Error Files], 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, mem_controller_tb (mem_controller_tb.v" value="16" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Add Sources], 2, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, Create New Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, Open Recent File" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sources_1, [HDL 9-2216] Analyzing Verilog file F:/1-DL_hardware/CNNPR/onchip/src/top/mem_controller.v into library work [F:/1-DL_hardware/CNNPR/onchip/src/top/mem_controller.v:1]. , [HDL 9-2216] Analyzing Verilog file F:/1-DL_hardware/CNNPR/onchip/src/parallel.v into library work [F:/1-DL_hardware/CNNPR/onchip/src/parallel.v:1]. ], 8, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sources_1, [HDL 9-2216] Analyzing Verilog file F:/1-DL_hardware/CNNPR/onchip/src/top/mem_controller.v into library work [F:/1-DL_hardware/CNNPR/onchip/src/top/mem_controller.v:1]. , [HDL 9-2216] Analyzing Verilog file F:/1-DL_hardware/CNNPR/onchip/src/parallel.v into library work [F:/1-DL_hardware/CNNPR/onchip/src/parallel.v:1]. ], 8, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sources_1, [HDL 9-2216] Analyzing Verilog file F:/1-DL_hardware/CNNPR/onchip/src/top/mem_controller.v into library work [F:/1-DL_hardware/CNNPR/onchip/src/top/mem_controller.v:1]. , [HDL 9-2216] Analyzing Verilog file F:/1-DL_hardware/CNNPR/onchip/src/sparsity.v into library work [F:/1-DL_hardware/CNNPR/onchip/src/sparsity.v:1]. ], 9, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sources_1, [HDL 9-2216] Analyzing Verilog file F:/1-DL_hardware/CNNPR/onchip/src/top/mem_controller.v into library work [F:/1-DL_hardware/CNNPR/onchip/src/top/mem_controller.v:1]. ], 7, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sources_1, [HDL 9-2216] Analyzing Verilog file F:/1-DL_hardware/CNNPR/onchip/src/top/mem_controller.v into library work [F:/1-DL_hardware/CNNPR/onchip/src/top/mem_controller.v:1]. ], 7, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sources_1, [HDL 9-806] Syntax error near [. [F:/1-DL_hardware/CNNPR/onchip/src/top/mem_controller.v:84]. , [HDL 9-806] Syntax error near ram_flag0. [F:/1-DL_hardware/CNNPR/onchip/src/sparsity.v:51]. ], 13, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sources_1, [HDL 9-806] Syntax error near [. [F:/1-DL_hardware/CNNPR/onchip/src/top/mem_controller.v:84]. ], 7, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sources_1, [HDL 9-806] Syntax error near always. [F:/1-DL_hardware/CNNPR/onchip/src/parallel.v:47]. , [HDL 9-806] Syntax error near (. [F:/1-DL_hardware/CNNPR/onchip/src/parallel.v:50]. ], 8, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sources_1, [HDL 9-806] Syntax error near always. [F:/1-DL_hardware/CNNPR/onchip/src/parallel.v:47]. , [HDL 9-806] Syntax error near always. [F:/1-DL_hardware/CNNPR/onchip/src/parallel.v:60]. ], 12, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sources_1, [HDL 9-806] Syntax error near always. [F:/1-DL_hardware/CNNPR/onchip/src/parallel.v:47]. ], 10, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sources_1, [HDL 9-806] Syntax error near always. [F:/1-DL_hardware/CNNPR/onchip/src/parallel.v:47]. ], 7" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sources_1, [HDL 9-806] Syntax error near always. [F:/1-DL_hardware/CNNPR/onchip/src/parallel.v:47]. ], 7, true" value="5" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sources_1, [HDL 9-806] Syntax error near always. [F:/1-DL_hardware/CNNPR/onchip/src/parallel.v:47]. ], 7, true, false, false, false, false, true" value="3" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sources_1, [HDL 9-806] Syntax error near always. [F:/1-DL_hardware/CNNPR/onchip/src/parallel.v:49]. , [HDL 9-806] Syntax error near ram_flag0. [F:/1-DL_hardware/CNNPR/onchip/src/sparsity.v:50]. ], 10, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sources_1, [HDL 9-806] Syntax error near always. [F:/1-DL_hardware/CNNPR/onchip/src/parallel.v:49]. ], 7" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sources_1, [HDL 9-870] Macro C_LOG_2 is not defined. [F:/1-DL_hardware/CNNPR/onchip/src/top/mem_controller.v:11]. ], 7, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, Boards" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, ZedBoard Zynq Evaluation and Development Kit ; em.avnet.com ; d ; xc7z020clg484-1 ; 484 ; 1.3 ; 140 ; 220 ; 106400 ; 0 ; 0 ; 200 ; 53200 ; 4 ; 0 ; 85 ; 0 ; 85 ; C ; 1.05 ; 0.95 ; 0.95 ; 0, 0, ZedBoard Zynq Evaluation and Development Kit, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_CREATE_PROJECT_SUBDIRECTORY, Create project subdirectory, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, Add Files" value="3" type="GuiResourceData"/>
+<property name="RDIResource.ProgressDialog_BACKGROUND, Background" value="1" type="GuiResourceData"/>
+<property name="RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 163, 73" value="1" type="GuiResourceData"/>
+<property name="mem_controller.v, 103, 524" value="1" type="GuiResourceData"/>
+<property name="mem_controller.v, 149, 415" value="1" type="GuiResourceData"/>
+<property name="mem_controller.v, 155, 518" value="1" type="GuiResourceData"/>
+<property name="mem_controller.v, 163, 428" value="1" type="GuiResourceData"/>
+<property name="mem_controller.v, 174, 442" value="1" type="GuiResourceData"/>
+<property name="mem_controller.v, 198, 310" value="1" type="GuiResourceData"/>
+<property name="mem_controller.v, 216, 373" value="1" type="GuiResourceData"/>
+<property name="mem_controller.v, 228, 425" value="1" type="GuiResourceData"/>
+<property name="mem_controller.v, 270, 368" value="1" type="GuiResourceData"/>
+<property name="mem_controller.v, 345, 212" value="1" type="GuiResourceData"/>
+<property name="mem_controller.v, 43, 354" value="1" type="GuiResourceData"/>
+<property name="mem_controller.v, 52, 370" value="1" type="GuiResourceData"/>
+<property name="mem_controller.v, 53, 46" value="1" type="GuiResourceData"/>
+<property name="mem_controller.v, 60, 375" value="1" type="GuiResourceData"/>
+<property name="mem_controller_tb.v, 306, 330" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 103, 555" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 105, 464" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 107, 528" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 117, 565" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 12, 179" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 12, 261" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 12, 402" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 135, 553" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 143, 486" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 16, 332" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 17, 179" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 170, 528" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 175, 502" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 192, 497" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 193, 482" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 201, 513" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 211, 487" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 216, 304" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 219, 392" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 22, 103" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 223, 413" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 226, 435" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 226, 487" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 230, 376" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 231, 434" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 232, 370" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 237, 506" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 240, 279" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 240, 474" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 247, 497" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 249, 476" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 252, 464" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 273, 331" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 274, 443" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 284, 371" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 293, 295" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 296, 447" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 321, 371" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 324, 304" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 332, 322" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 333, 523" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 334, 276" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 348, 362" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 349, 448" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 35, 535" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 37, 487" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 38, 327" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 392, 200" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 48, 430" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 482, 413" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 5, 392" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 50, 369" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 52, 519" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 576, 346" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 58, 296" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 6, 258" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 63, 536" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 7, 394" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 75, 485" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 77, 543" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 81, 383" value="1" type="GuiResourceData"/>
+<property name="parallel.v, 87, 531" value="1" type="GuiResourceData"/>
+<property name="sparsity.v, 10, 358" value="1" type="GuiResourceData"/>
+<property name="sparsity.v, 109, 354" value="1" type="GuiResourceData"/>
+<property name="sparsity.v, 112, 307" value="1" type="GuiResourceData"/>
+<property name="sparsity.v, 164, 292" value="1" type="GuiResourceData"/>
+<property name="sparsity.v, 208, 302" value="1" type="GuiResourceData"/>
+<property name="sparsity.v, 213, 306" value="1" type="GuiResourceData"/>
+<property name="sparsity.v, 229, 332" value="1" type="GuiResourceData"/>
+<property name="sparsity.v, 23, 277" value="1" type="GuiResourceData"/>
+<property name="sparsity.v, 341, 348" value="1" type="GuiResourceData"/>
+<property name="sparsity.v, 35, 332" value="1" type="GuiResourceData"/>
+<property name="sparsity.v, 350, 270" value="1" type="GuiResourceData"/>
+<property name="sparsity.v, 420, 471" value="1" type="GuiResourceData"/>
+<property name="sparsity.v, 64, 352" value="2" type="GuiResourceData"/>
+<property name="sparsity.v, 66, 352" value="1" type="GuiResourceData"/>
+<property name="sparsity.v, 77, 332" value="1" type="GuiResourceData"/>
+<property name="sparsity.v, 97, 328" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="42" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="25" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

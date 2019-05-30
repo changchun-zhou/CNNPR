@@ -1,0 +1,67 @@
+library verilog;
+use verilog.vl_types.all;
+entity mem_controller is
+    generic(
+        DATA_WIDTH      : integer := 8;
+        READ_FLAG_LENGTH: integer := 6;
+        READ_REQ_ACT_FLAG: vl_logic_vector(0 to 8) := (Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi1, Hi1, Hi1);
+        READ_REQ_ACT    : vl_logic_vector(0 to 8) := (Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi1);
+        ADDR_WIDTH      : integer := 4;
+        PARALLEL_WIDTH  : vl_notype;
+        SHIFT_WIDTH     : vl_notype;
+        NUM_BLOCK       : integer := 36;
+        BLOCK_ADDR_WIDTH: vl_notype
+    );
+    port(
+        clk             : in     vl_logic;
+        reset           : in     vl_logic;
+        wr_req_pflag    : in     vl_logic;
+        wr_data_pflag0  : in     vl_logic;
+        wr_data_pflag1  : in     vl_logic;
+        wr_data_pflag2  : in     vl_logic;
+        wr_data_pflag3  : in     vl_logic;
+        wr_data_pflag4  : in     vl_logic;
+        wr_data_pflag5  : in     vl_logic;
+        wr_data_pflag6  : in     vl_logic;
+        wr_data_pflag7  : in     vl_logic;
+        wr_data_pflag8  : in     vl_logic;
+        wr_req_p        : in     vl_logic;
+        wr_data_p0      : in     vl_logic_vector;
+        wr_data_p1      : in     vl_logic_vector;
+        wr_data_p2      : in     vl_logic_vector;
+        wr_data_p3      : in     vl_logic_vector;
+        wr_data_p4      : in     vl_logic_vector;
+        wr_data_p5      : in     vl_logic_vector;
+        wr_data_p6      : in     vl_logic_vector;
+        wr_data_p7      : in     vl_logic_vector;
+        wr_data_p8      : in     vl_logic_vector;
+        wr_req_sflag    : in     vl_logic;
+        wr_data_sflag   : in     vl_logic_vector(15 downto 0);
+        wr_req_s        : in     vl_logic;
+        wr_data_s       : in     vl_logic_vector;
+        mode            : in     vl_logic;
+        start           : in     vl_logic;
+        en              : out    vl_logic;
+        parallel_out    : out    vl_logic_vector;
+        serial_out      : out    vl_logic_vector;
+        act_index       : out    vl_logic_vector(3 downto 0);
+        wei_index       : out    vl_logic_vector(1 downto 0);
+        row_index       : out    vl_logic_vector(4 downto 0);
+        row_val_num     : out    vl_logic_vector(3 downto 0);
+        zero_flag       : out    vl_logic;
+        cnt             : in     vl_logic_vector(3 downto 0);
+        row_finish_done_0: in     vl_logic;
+        row_finish_done_1: in     vl_logic;
+        row_cal_done    : in     vl_logic
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of DATA_WIDTH : constant is 1;
+    attribute mti_svvh_generic_type of READ_FLAG_LENGTH : constant is 1;
+    attribute mti_svvh_generic_type of READ_REQ_ACT_FLAG : constant is 1;
+    attribute mti_svvh_generic_type of READ_REQ_ACT : constant is 1;
+    attribute mti_svvh_generic_type of ADDR_WIDTH : constant is 1;
+    attribute mti_svvh_generic_type of PARALLEL_WIDTH : constant is 3;
+    attribute mti_svvh_generic_type of SHIFT_WIDTH : constant is 3;
+    attribute mti_svvh_generic_type of NUM_BLOCK : constant is 1;
+    attribute mti_svvh_generic_type of BLOCK_ADDR_WIDTH : constant is 3;
+end mem_controller;

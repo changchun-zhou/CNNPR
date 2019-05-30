@@ -1,0 +1,43 @@
+F:/Programdata/CNNPR/source/ram.v {1 {vlog -work work -vopt F:/Programdata/CNNPR/source/ram.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}} F:/Programdata/CNNPR/source/fifo.v {1 {vlog -work work -vopt F:/Programdata/CNNPR/source/fifo.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module fifo
+
+Top level modules:
+	fifo
+
+} {} {}} F:/Programdata/CNNPR/source/cache.v {1 {vlog -work work -vopt {F:\Programdata\CNNPR\source\cache.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module cache
+
+Top level modules:
+	cache
+
+} {} {}} F:/Programdata/CNNPR/source/column.v {1 {vlog -work work -vopt F:/Programdata/CNNPR/source/column.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module column
+
+Top level modules:
+	column
+
+} {} {}} F:/Programdata/CNNPR/source/sparsity.v {1 {vlog -work work -vopt {F:\Programdata\CNNPR\source\sparsity.v}
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module sparsity
+
+Top level modules:
+	sparsity
+
+} {} {}} F:/Programdata/CNNPR/source/block.v {1 {vlog -work work -vopt F:/Programdata/CNNPR/source/block.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module block
+
+Top level modules:
+	block
+
+} {} {}}

@@ -1,0 +1,12 @@
+# do sim.do 
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module mem_controller
+# -- Compiling module mem_controller_tb
+# 
+# Top level modules:
+# 	mem_controller_tb
+# vsim -novopt work.mem_controller_tb.v 
+# ** Error: (vsim-19) Failed to access library 'work.mem_controller_tb' at "work.mem_controller_tb".
+# 
+# No such file or directory. (errno = ENOENT)
+# Error loading design

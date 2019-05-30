@@ -1,0 +1,167 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\1-DL_hardware\CNNPR\onchip\windows
+vcolumn_parallel
+!i10b 1
+VLG@;LJj;MT`@4RGnRV3<Z0
+r1
+!s85 0
+31
+IWT[eR6ngFjfn@S83ZYH_G2
+Z1 dF:\1-DL_hardware\CNNPR\onchip\windows
+w1558782553
+8../src/column_parallel.v
+F../src/column_parallel.v
+L0 1
+Z2 OE;L;10.1a;51
+Z3 !s108 1559206733.815000
+Z4 !s107 ../src/serial.v|../src/sparsity.v|../src/parallel.v|../src/column_serial.v|../src/column_parallel.v|../src/primitives/ram_flag.v|../src/primitives/ram.v|../src/top/mem_controller.v|../src/top/mem_controller_tb.v|
+Z5 !s90 -lint|-f|vf|
+Z6 o-lint -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 CmYE_db]??RkzWoaKdh^N3
+vcolumn_serial
+IP`EJ0R4jPzg8>BS=6G=z?1
+V30^:08WLX97FgP?LLOTm01
+R1
+w1555932138
+8../src/column_serial.v
+F../src/column_serial.v
+L0 1
+R2
+r1
+31
+R3
+R4
+R5
+R6
+!s100 n9A`BhS73Vh:11^h]??IZ1
+!i10b 1
+!s85 0
+vmem_controller
+VRI`[>3hl7LSjIXzLGH?Rl2
+r1
+31
+IF5<MF^f=j]540:Rgf4;B41
+R1
+w1559206584
+8../src/top/mem_controller.v
+F../src/top/mem_controller.v
+L0 10
+R2
+R3
+R4
+R5
+R6
+!i10b 1
+!s85 0
+!s100 hl<m<D>Wk0m2oQ?aR4<Kc1
+vmem_controller_tb
+Vc@F^cm<B1OQn3QM@lJG_D3
+r1
+31
+I:C0BOXoLPAIHQ2g;FUG1@3
+R1
+w1559206333
+8../src/top/mem_controller_tb.v
+F../src/top/mem_controller_tb.v
+L0 28
+R2
+R3
+R4
+R5
+R6
+!i10b 1
+!s85 0
+!s100 V44j`U3L>ikk8bR=N1FG42
+vparallel
+I;^_N5HDoJL2G`]goZk6=j2
+VKX=EXhTT?ojXemmhE5Ql`2
+R1
+w1556067281
+8../src/parallel.v
+F../src/parallel.v
+L0 1
+R2
+r1
+31
+R3
+R4
+R5
+R6
+!s100 RCWAX7CLJCoPP0Ce<N`Y:3
+!i10b 1
+!s85 0
+vram
+VLmo_6Ug_L<0AR0^J>`ZcZ2
+r1
+31
+I_XX==H99iE9J1LKUn?Yez1
+R1
+w1557628963
+8../src/primitives/ram.v
+F../src/primitives/ram.v
+L0 1
+R2
+R3
+R4
+R5
+R6
+!i10b 1
+!s85 0
+!s100 mWm4OZ1V0z3Gkj^3dV2852
+vram_flag
+V6O9m^fAm]HU66NAT_JM?V1
+r1
+31
+I]Ym`6dh6:^j2iYen6iVi81
+R1
+w1557578826
+8../src/primitives/ram_flag.v
+F../src/primitives/ram_flag.v
+L0 3
+R2
+R3
+R4
+R5
+R6
+!i10b 1
+!s85 0
+!s100 KMZ8bLfV1gjac?07CAbBS2
+vserial
+I6JnDl9R@GF0:3<[PzbR<a3
+VIgBk7YU^k7NB>BQO;4h5G0
+R1
+w1556073705
+8../src/serial.v
+F../src/serial.v
+L0 1
+R2
+r1
+31
+R3
+R4
+R5
+R6
+!s100 5?KW@fa_<6V1fh@Q513K03
+!i10b 1
+!s85 0
+vsparsity
+I:4=dP6=DV=8E7U]<I]]Jz0
+V1mnA>m<2GBMH`gL2`93RQ3
+R1
+w1556097838
+8../src/sparsity.v
+F../src/sparsity.v
+L0 1
+R2
+r1
+31
+R3
+R4
+R5
+R6
+!s100 N<igiUl12inh_WHGWBHGJ1
+!i10b 1
+!s85 0
