@@ -3,165 +3,202 @@ K3
 13
 cModel Technology
 Z0 dF:\1-DL_hardware\CNNPR\onchip\windows
+vactivation
+!i10b 1
+Z1 !s100 jZKTZ_ezza=8>K_RG379B2
+Z2 Ib>M5T?o=@b=g1MO;]jH422
+Z3 V6@kSD7VYahRVzilAVVjJ72
+Z4 dF:\1-DL_hardware\CNNPR\onchip\windows
+Z5 w1559998219
+Z6 8../src/sub_modules/activation.v
+Z7 F../src/sub_modules/activation.v
+L0 1
+Z8 OE;L;10.1a;51
+r1
+!s85 0
+31
+Z9 !s108 1559998614.465000
+Z10 !s107 ../src/sub_modules/weight.v|../src/sub_modules/seq2parallel.v|../src/sub_modules/seq2index.v|../src/sub_modules/ram.v|../src/sub_modules/loop_count.v|../src/sub_modules/FSM_3.v|../src/sub_modules/delay.v|../src/sub_modules/column_parallel.v|../src/sub_modules/activation.v|../src/top/mem_controller.v|../src/top/mem_controller_tb.v|
+Z11 !s90 -lint|-f|vf|
+Z12 o-lint -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
 vcolumn_parallel
 !i10b 1
-VLG@;LJj;MT`@4RGnRV3<Z0
-r1
-!s85 0
-31
-IWT[eR6ngFjfn@S83ZYH_G2
-Z1 dF:\1-DL_hardware\CNNPR\onchip\windows
-w1558782553
-8../src/column_parallel.v
-F../src/column_parallel.v
-L0 1
-Z2 OE;L;10.1a;51
-Z3 !s108 1559206733.815000
-Z4 !s107 ../src/serial.v|../src/sparsity.v|../src/parallel.v|../src/column_serial.v|../src/column_parallel.v|../src/primitives/ram_flag.v|../src/primitives/ram.v|../src/top/mem_controller.v|../src/top/mem_controller_tb.v|
-Z5 !s90 -lint|-f|vf|
-Z6 o-lint -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
-!s100 CmYE_db]??RkzWoaKdh^N3
-vcolumn_serial
-IP`EJ0R4jPzg8>BS=6G=z?1
-V30^:08WLX97FgP?LLOTm01
-R1
-w1555932138
-8../src/column_serial.v
-F../src/column_serial.v
-L0 1
-R2
-r1
-31
-R3
+Z13 !s100 ZEg7a5QBIle>SWhhKAO6Y1
+Z14 IVg0^izSONzMdFO;1bQVJJ3
+Z15 VLG@;LJj;MT`@4RGnRV3<Z0
 R4
-R5
-R6
-!s100 n9A`BhS73Vh:11^h]??IZ1
-!i10b 1
+Z16 w1559213743
+Z17 8../src/sub_modules/column_parallel.v
+Z18 F../src/sub_modules/column_parallel.v
+L0 1
+R8
+r1
 !s85 0
+31
+R9
+R10
+R11
+R12
+vdelay
+!i10b 1
+Z19 !s100 @:1e8dO8BbIidNS]haI_z3
+Z20 I`JIfkj<4f=V]V`fU2eO:P0
+Z21 VO9<D6=W:8J5BB@O37[k6O1
+R4
+Z22 w1559998250
+Z23 8../src/sub_modules/delay.v
+Z24 F../src/sub_modules/delay.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+R12
+vFSM_3
+!i10b 1
+Z25 !s100 d0ojYEAYkl;Z_V72C`zzz3
+Z26 IR>Bhhbo`_Xa@DDaY4Ye2g3
+Z27 VSMCKGaJiV6^oWXJa1]7S;2
+R4
+Z28 w1559998326
+Z29 8../src/sub_modules/FSM_3.v
+Z30 F../src/sub_modules/FSM_3.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+R12
+Z31 n@f@s@m_3
+vloop_count
+!i10b 1
+Z32 !s100 3P?d_`7A7@GzKd@`0_B>A0
+Z33 Izj9nOFzXfl@B;d7IGo2C31
+Z34 Vg<F5<oQ^lWk=QXk<aOdhY2
+R4
+Z35 w1559998340
+Z36 8../src/sub_modules/loop_count.v
+Z37 F../src/sub_modules/loop_count.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+R12
 vmem_controller
-VRI`[>3hl7LSjIXzLGH?Rl2
-r1
-31
-IF5<MF^f=j]540:Rgf4;B41
-R1
-w1559206584
-8../src/top/mem_controller.v
-F../src/top/mem_controller.v
-L0 10
-R2
-R3
-R4
-R5
-R6
 !i10b 1
-!s85 0
-!s100 hl<m<D>Wk0m2oQ?aR4<Kc1
-vmem_controller_tb
-Vc@F^cm<B1OQn3QM@lJG_D3
-r1
-31
-I:C0BOXoLPAIHQ2g;FUG1@3
-R1
-w1559206333
-8../src/top/mem_controller_tb.v
-F../src/top/mem_controller_tb.v
-L0 28
-R2
-R3
+Z38 !s100 ?3^1;ClR]=iK5KedgGIm@2
+Z39 IHP^>SY36jlZHcTkR<X2Hf1
+Z40 V7DeHa60;gM9?]S91Rh^Do1
 R4
-R5
-R6
-!i10b 1
-!s85 0
-!s100 V44j`U3L>ikk8bR=N1FG42
-vparallel
-I;^_N5HDoJL2G`]goZk6=j2
-VKX=EXhTT?ojXemmhE5Ql`2
-R1
-w1556067281
-8../src/parallel.v
-F../src/parallel.v
-L0 1
-R2
-r1
-31
-R3
-R4
-R5
-R6
-!s100 RCWAX7CLJCoPP0Ce<N`Y:3
-!i10b 1
-!s85 0
-vram
-VLmo_6Ug_L<0AR0^J>`ZcZ2
-r1
-31
-I_XX==H99iE9J1LKUn?Yez1
-R1
-w1557628963
-8../src/primitives/ram.v
-F../src/primitives/ram.v
-L0 1
-R2
-R3
-R4
-R5
-R6
-!i10b 1
-!s85 0
-!s100 mWm4OZ1V0z3Gkj^3dV2852
-vram_flag
-V6O9m^fAm]HU66NAT_JM?V1
-r1
-31
-I]Ym`6dh6:^j2iYen6iVi81
-R1
-w1557578826
-8../src/primitives/ram_flag.v
-F../src/primitives/ram_flag.v
+Z41 w1559998226
+Z42 8../src/top/mem_controller.v
+Z43 F../src/top/mem_controller.v
 L0 3
-R2
-R3
-R4
-R5
-R6
-!i10b 1
-!s85 0
-!s100 KMZ8bLfV1gjac?07CAbBS2
-vserial
-I6JnDl9R@GF0:3<[PzbR<a3
-VIgBk7YU^k7NB>BQO;4h5G0
-R1
-w1556073705
-8../src/serial.v
-F../src/serial.v
-L0 1
-R2
+R8
 r1
-31
-R3
-R4
-R5
-R6
-!s100 5?KW@fa_<6V1fh@Q513K03
-!i10b 1
 !s85 0
-vsparsity
-I:4=dP6=DV=8E7U]<I]]Jz0
-V1mnA>m<2GBMH`gL2`93RQ3
-R1
-w1556097838
-8../src/sparsity.v
-F../src/sparsity.v
-L0 1
-R2
+31
+R9
+R10
+R11
+R12
+vmem_controller_tb
+!i10b 1
+Z44 !s100 Ie0447j8S`=`b1GZUz57V3
+Z45 IP3f`:_VjfS0he@68cS7>b3
+Z46 Va]H]W4`Y33Z?S22OgKDhY1
+R4
+Z47 w1559997521
+Z48 8../src/top/mem_controller_tb.v
+Z49 F../src/top/mem_controller_tb.v
+L0 37
+R8
 r1
-31
-R3
-R4
-R5
-R6
-!s100 N<igiUl12inh_WHGWBHGJ1
-!i10b 1
 !s85 0
+31
+R9
+R10
+R11
+R12
+vram
+!i10b 1
+Z50 !s100 =mJQhW_3dDfC:?AaTz[hE2
+Z51 IWgA0IoZ]O_FaA=1YB]k3:2
+Z52 Vz?aG7bA;2DI<FT8862kaT3
+R4
+Z53 w1559997263
+Z54 8../src/sub_modules/ram.v
+Z55 F../src/sub_modules/ram.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+R12
+vseq2index
+!i10b 1
+Z56 !s100 W]Lb[EPo4UE89U1`M0C0U3
+Z57 IWn_oSEhJf<fc?bm_bYQcT3
+Z58 VAXWPZmaKVVHKBElDEe32E3
+R4
+Z59 w1559618952
+Z60 8../src/sub_modules/seq2index.v
+Z61 F../src/sub_modules/seq2index.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+R12
+vseq2parallel
+!i10b 1
+Z62 !s100 F20KKQG2I<@MoHTN>n?>T3
+Z63 I^Y6<DNokU8b:YMH380WPY0
+Z64 V8V]oRONQJU=LPXcaSjg683
+R4
+Z65 w1559962318
+Z66 8../src/sub_modules/seq2parallel.v
+Z67 F../src/sub_modules/seq2parallel.v
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+R12
+vweight
+!i10b 1
+!s100 2kYe0[H7IIIg=@YY;IeVL3
+IPnJfK;O@<8C6kD;J`V:e52
+VVkFgc3llfAObVFI^lbKYo2
+R4
+w1559998610
+8../src/sub_modules/weight.v
+F../src/sub_modules/weight.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+R12

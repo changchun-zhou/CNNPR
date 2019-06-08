@@ -10,12 +10,10 @@ entity ram is
     port(
         clk             : in     vl_logic;
         reset           : in     vl_logic;
-        s_read_req      : in     vl_logic;
-        s_read_addr     : in     vl_logic_vector;
-        s_read_data     : out    vl_logic_vector;
-        s_write_req     : in     vl_logic;
-        s_write_addr    : in     vl_logic_vector;
-        s_write_data    : in     vl_logic_vector
+        rd_req          : in     vl_logic;
+        rd_data         : out    vl_logic_vector;
+        wr_req          : in     vl_logic;
+        wr_data         : in     vl_logic_vector
     );
     attribute mti_svvh_generic_type : integer;
     attribute mti_svvh_generic_type of DATA_WIDTH : constant is 1;
