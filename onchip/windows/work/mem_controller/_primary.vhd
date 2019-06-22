@@ -9,7 +9,7 @@ entity mem_controller is
         reset           : in     vl_logic;
         wr_req_act_flag : in     vl_logic;
         wr_data_act_flag: in     vl_logic_vector(15 downto 0);
-        wr_req_act      : in     vl_logic;
+        wr_req_act      : in     vl_logic_vector(15 downto 0);
         wr_data_act0    : in     vl_logic_vector(7 downto 0);
         wr_data_act1    : in     vl_logic_vector(7 downto 0);
         wr_data_act2    : in     vl_logic_vector(7 downto 0);
@@ -27,7 +27,7 @@ entity mem_controller is
         wr_data_act14   : in     vl_logic_vector(7 downto 0);
         wr_data_act15   : in     vl_logic_vector(7 downto 0);
         wr_req_wei_flag : in     vl_logic;
-        wr_data_wei_flag: in     vl_logic_vector(15 downto 0);
+        wr_data_wei_flag: in     vl_logic_vector(8 downto 0);
         wr_req_wei      : in     vl_logic;
         wr_data_wei     : in     vl_logic_vector(7 downto 0);
         mode            : in     vl_logic;
@@ -37,7 +37,7 @@ entity mem_controller is
         serial_out      : out    vl_logic_vector(7 downto 0);
         act_index       : out    vl_logic_vector(3 downto 0);
         wei_index       : out    vl_logic_vector(1 downto 0);
-        row_index       : out    vl_logic_vector(4 downto 0);
+        row_index       : out    vl_logic_vector(3 downto 0);
         row_val_num     : out    vl_logic_vector(3 downto 0);
         zero_flag       : out    vl_logic;
         cnt             : in     vl_logic_vector(3 downto 0);

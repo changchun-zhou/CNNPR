@@ -1,0 +1,39 @@
+`define C_LOG_2(n) ( (n) <= (1<<0) ? 0 : (n) <= (1<<1) ? 1 :(n) <= (1<<2) ? 2 : (n) <= (1<<3) ? 3 :(n) <= (1<<4) ? 4 : (n) <= (1<<5) ? 5 :(n) <= (1<<6) ? 6 : (n) <= (1<<7) ? 7 :(n) <= (1<<8) ? 8 : (n) <= (1<<9) ? 9 :(n) <= (1<<10) ? 10 : (n) <= (1<<11) ? 11 :(n) <= (1<<12) ? 12 : (n) <= (1<<13) ? 13 :(n) <= (1<<14) ? 14 : (n) <= (1<<15) ? 15 :(n) <= (1<<16) ? 16 : (n) <= (1<<17) ? 17 :(n) <= (1<<18) ? 18 : (n) <= (1<<19) ? 19 :(n) <= (1<<20) ? 20 : (n) <= (1<<21) ? 21 :(n) <= (1<<22) ? 22 : (n) <= (1<<23) ? 23 :(n) <= (1<<24) ? 24 : (n) <= (1<<25) ? 25 :(n) <= (1<<26) ? 26 : (n) <= (1<<27) ? 27 :(n) <= (1<<28) ? 28 : (n) <= (1<<29) ? 29 :(n) <= (1<<30) ? 30 : (n) <= (1<<31) ? 31 : 32)
+
+module seq2index #(
+    parameter DATA_WIDTH = 16,
+    parameter INDEX_WIDTH= 4
+)
+(
+    input                           clk,
+    input                           reset,
+    input                           refresh_seq, //en||row_cal_done
+    input  [ DATA_WIDTH - 1 : 0 ]   seq,
+    output [INDEX_WIDTH - 1 : 0 ]   index
+);
+  reg [ DATA_WIDTH - 1 : 0 ] seq_reg;
+  reg [ INDEX_WIDTH  - 1 : 0 ] index_reg;
+  wire  [ INDEX_WIDTH  - 1 : 0 ] position_1;
+  wire [ DATA_WIDTH  - 1 : 0 ] seq_reg_and;
+  assign seq_reg_and = (~seq_reg + 1 ) & seq_reg ;
+  assign position_1 = `C_LOG_2( seq_reg_and  );
+  assign index = position_1 + index_reg;
+
+  always @(posedge clk ) begin : proc_index_reg
+    if(reset || refresh_seq ) begin
+      index_reg <= 0;
+    end else if( seq_reg != 0 ) begin
+      index_reg <= index + 1;
+    end
+  end
+  
+  always @(posedge clk ) begin : proc_seq_reg
+    if(reset) begin
+      seq_reg <= 0;
+    end else if ( refresh_seq )  begin // one time for a row data
+      seq_reg <= seq;
+    end else
+      seq_reg <= seq_reg >> ( position_1 + 1);//
+  end
+
+endmodule // seq2index

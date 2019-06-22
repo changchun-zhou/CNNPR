@@ -1,0 +1,92 @@
+# vsim -do {run -all} -c -novopt work.mem_controller_tb 
+# Loading D:\ApplicationProgram\Debussy\share\PLI\modelsim_pli\WINNT\novas.dll
+# Loading D:\ApplicationProgram\Modelsim10.1a\win32\modelsim_pli54\WINNT\novas.dll
+# //  ModelSim SE 10.1a Feb 22 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.mem_controller_tb
+# Loading work.mem_controller_tb
+# Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.mem_controller
+# Loading work.mem_controller
+# Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.FSM_3
+# Loading work.FSM_3
+# Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.delay
+# Loading work.delay
+# Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.activation
+# Loading work.activation
+# Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.ram
+# Loading work.ram
+# Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.seq2index
+# Loading work.seq2index
+# Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.loop_count
+# Loading work.loop_count
+# Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.seq2parallel
+# Loading work.seq2parallel
+# Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.weight
+# Loading work.weight
+# Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.column_parallel
+# Loading work.column_parallel
+# ** Warning: (vsim-3015) ../src/sub_modules/weight.v(228): [PCDPC] - Port size (2 or 2) does not match connection size (32) for port 'max'. The port definition is at: ../src/sub_modules/loop_count.v(8).
+# 
+#         Region: /mem_controller_tb/mem_controller/weight/loop_count_wei_col_index
+# run -all 
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 20 of file "F:/1-DL_hardware/CNNPR/onchip/src/DAT/wr_data_act_flag.dat". (Current address [16], address range [0:15])    : ../src/top/mem_controller_tb.v(108)
+#    Time: 0 ps  Iteration: 0  Instance: /mem_controller_tb
+# ** Warning: (vsim-8233) ../src/sub_modules/weight.v(82): Index xxxx into array dimension [8:0] is out of bounds.
+#    Time: 0 ps  Iteration: 0  Instance: /mem_controller_tb/mem_controller/weight
+# ** Warning: (vsim-8233) ../src/sub_modules/weight.v(81): Index xxxx into array dimension [8:0] is out of bounds.
+#    Time: 0 ps  Iteration: 0  Instance: /mem_controller_tb/mem_controller/weight
+# wr_data_act_flag_mem [          0] = 0000101001110011
+# wr_data_act_mem [          0] = e5b9000087b7d20000a800c100000000
+# wr_data_wei_flag_mem [          0] = 111000101
+# wr_data_wei_mem [          0] = 01
+# wr_data_act_flag_mem [          1] = 0011100000000001
+# wr_data_act_mem [          1] = 8800000000000000000000d5c6a50000
+# wr_data_wei_mem [          1] = 02
+# wr_data_act_flag_mem [          2] = 0100011100000001
+# wr_data_act_mem [          2] = d900000000000000ba97f8000000dc00
+# wr_data_wei_mem [          2] = 03
+# wr_data_act_flag_mem [          3] = 0001000000000001
+# wr_data_act_mem [          3] = 920000000000000000000000d1000000
+# wr_data_wei_mem [          3] = 04
+# wr_data_act_flag_mem [          4] = 0000100000011101
+# wr_data_act_mem [          4] = 8000e9bef0000000000000c400000000
+# wr_data_wei_mem [          4] = 05
+# wr_data_act_flag_mem [          5] = 0010000000001010
+# wr_data_act_mem [          5] = 008e00c1000000000000000000970000
+# wr_data_wei_mem [          5] = 06
+# wr_data_act_flag_mem [          6] = 0011001100000000
+# wr_data_act_mem [          6] = 0000000000000000d7c700008f8f0000
+# wr_data_wei_mem [          6] = xx
+# wr_data_act_flag_mem [          7] = 0010101011001010
+# wr_data_act_mem [          7] = 00a000cf0000899e00a6009400fd0000
+# wr_data_wei_mem [          7] = xx
+# wr_data_act_flag_mem [          8] = 1001000000000000
+# wr_data_act_mem [          8] = 000000000000000000000000c000008f
+# wr_data_wei_mem [          8] = xx
+# wr_data_act_flag_mem [          9] = 0000000010001001
+# wr_data_act_mem [          9] = 83000088000000b10000000000000000
+# wr_data_act_flag_mem [         10] = 0011001010101010
+# wr_data_act_mem [         10] = 00e800d100cd008d00a800008ae40000
+# wr_data_act_flag_mem [         11] = 0000011000001000
+# wr_data_act_mem [         11] = 000000df0000000000b8a60000000000
+# wr_data_act_flag_mem [         12] = 0000010101000000
+# wr_data_act_mem [         12] = 00000000000082009a00920000000000
+# wr_data_act_flag_mem [         13] = 0101001101000110
+# wr_data_act_mem [         13] = 00e292000000c300a4f20000fc00a800
+# wr_data_act_flag_mem [         14] = 1010000100100110
+# wr_data_act_mem [         14] = 00cdec0000a60000ce00000000aa00be
+# wr_data_act_flag_mem [         15] = 1001110000000000
+# wr_data_act_mem [         15] = 00000000000000000000ed8e990000da
+# ** Warning: (vsim-8233) ../src/sub_modules/weight.v(82): Index 9 into array dimension [8:0] is out of bounds.
+#    Time: 830 ps  Iteration: 2  Instance: /mem_controller_tb/mem_controller/weight
+# ** Warning: (vsim-8233) ../src/sub_modules/weight.v(81): Index 9 into array dimension [8:0] is out of bounds.
+#    Time: 830 ps  Iteration: 2  Instance: /mem_controller_tb/mem_controller/weight
+# ** Note: $finish    : ../src/top/mem_controller_tb.v(96)
+#    Time: 5040 ps  Iteration: 0  Instance: /mem_controller_tb

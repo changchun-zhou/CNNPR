@@ -41,9 +41,9 @@ module ram //2 clk delay
       mem[s_write_addr] <= s_write_data;
   end
 
-  always @(posedge clk)
+  always @(posedge clk or negedge rst_n)
   begin: RAM_READ
-    if (rst_n)
+    if (~rst_n)
       s_read_data <= 0;
     else if (s_read_req)
       s_read_data <= mem[s_read_addr];
