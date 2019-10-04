@@ -1,0 +1,12 @@
+# File: read_hdl.scr
+
+# define design files:
+set VERILOG_FILES { \
+            source/TOP_ASIC.v  \
+            source/top_1.v   \
+            source/fifo_async_wr.v \
+            source/fifo_async_rd.v \
+	        source/top_asyncFIFO_wr.v \
+            source/top_asyncFIFO_rd.v \
+       }
+
