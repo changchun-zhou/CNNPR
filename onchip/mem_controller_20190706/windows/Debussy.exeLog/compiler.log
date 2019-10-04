@@ -1,0 +1,28 @@
+*design* DebussyLib (btIdent 3.3v9)
+Command arguments:
+    +define+verilog
+    -2001
+    -f vf
+        ../src/top/mem_controller_tb.v
+        ../src/top/mem_controller.v
+        ../src/sub_modules/delay.v
+        ../src/sub_modules/loop_count.v
+        ../src/sub_modules/seq2index.v
+        ../src/sub_modules/weight.v
+
+
+*Warning* macro C_LOG_2 redefined
+"def_params.vh", 3: 
+
+*Warning* macro C_LOG_2 redefined
+"def_params.vh", 3: 
+
+*Warning* macro C_LOG_2 redefined
+"def_params.vh", 3: 
+Highest level modules:
+mem_controller_tb
+
+
+*Warning* port sizes differ (2 vs 4) in port connection (port count_val_num)
+"../src/top/mem_controller.v", 442: 
+Total	0 error(s),   4 warning(s)

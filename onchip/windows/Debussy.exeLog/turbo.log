@@ -1,7 +1,7 @@
 Command Line: debussy -2001 -f vf -ssf mem_controller_tb.fsdb -sswr mem_controller_tb.rc
 uname(WinNT DESKTOP-K4PJT3U 6.2.9200  Intel Pentium)
-hbReload time 2 0.0 0.0 delta 96608 368640 total 19997984 31825920
-Disabled AskUser2 Message (Response 0): Remember to save signals to a signal file.
-Do you want to continue?
+hbReload time 0 0.0 0.0 delta 96640 348160 total 20052176 31944704
 Disabled AskUser2 Message (Response 0): Close all windows and exit Debussy.exe?
-au time 868 0.0 0.0 delta 41541040 40763392 total 41881600 41881600
+au time 103580 0.0 0.0 delta 35151280 34361344 total 35491840 35491840
+se all windows and exit Debussy.exe?
+au time 289361 0.0 0.0 delta 39062960 38273024 total 39403520 39403520

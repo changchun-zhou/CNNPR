@@ -1,0 +1,12 @@
+../src/top/mem_controller_tb.v
+../src/top/mem_controller.v
+../src/sub_modules/activation.v
+../src/sub_modules/column_parallel.v
+../src/sub_modules/delay.v
+../src/sub_modules/loop_count.v
+../src/sub_modules/ram.v
+../src/sub_modules/seq2index.v
+../src/sub_modules/seq2parallel.v
+../src/sub_modules/weight.v
+../src/sub_modules/column_parallel_2.v
+

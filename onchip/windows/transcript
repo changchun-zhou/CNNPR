@@ -14,79 +14,157 @@
 # Loading work.mem_controller_tb
 # Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.mem_controller
 # Loading work.mem_controller
-# Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.FSM_3
-# Loading work.FSM_3
-# Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.delay
-# Loading work.delay
-# Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.activation
-# Loading work.activation
-# Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.ram
-# Loading work.ram
-# Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.seq2index
-# Loading work.seq2index
 # Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.loop_count
 # Loading work.loop_count
-# Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.seq2parallel
-# Loading work.seq2parallel
+# Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.seq2index
+# Loading work.seq2index
 # Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.weight
 # Loading work.weight
-# Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.column_parallel
-# Loading work.column_parallel
-# ** Warning: (vsim-3015) ../src/sub_modules/weight.v(228): [PCDPC] - Port size (2 or 2) does not match connection size (32) for port 'max'. The port definition is at: ../src/sub_modules/loop_count.v(8).
+# Refreshing F:\1-DL_hardware\CNNPR\onchip\windows\work.delay
+# Loading work.delay
+# ** Warning: (vsim-3015) ../src/top/mem_controller.v(432): [PCDPC] - Port size (2 or 2) does not match connection size (4) for port 'count_val_num'. The port definition is at: ../src/sub_modules/weight.v(19).
 # 
-#         Region: /mem_controller_tb/mem_controller/weight/loop_count_wei_col_index
+#         Region: /mem_controller_tb/mem_controller/weight
 # run -all 
-# ** Warning: (vsim-PLI-3407) Too many data words read on line 20 of file "F:/1-DL_hardware/CNNPR/onchip/src/DAT/wr_data_act_flag.dat". (Current address [16], address range [0:15])    : ../src/top/mem_controller_tb.v(108)
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 20 of file "./DAT/wr_data_act_flag.dat". (Current address [16], address range [0:15])    : ../src/top/mem_controller_tb.v(73)
 #    Time: 0 ps  Iteration: 0  Instance: /mem_controller_tb
-# ** Warning: (vsim-8233) ../src/sub_modules/weight.v(82): Index xxxx into array dimension [8:0] is out of bounds.
-#    Time: 0 ps  Iteration: 0  Instance: /mem_controller_tb/mem_controller/weight
-# ** Warning: (vsim-8233) ../src/sub_modules/weight.v(81): Index xxxx into array dimension [8:0] is out of bounds.
-#    Time: 0 ps  Iteration: 0  Instance: /mem_controller_tb/mem_controller/weight
+# wr_data_wei_mem [          0] = 00
 # wr_data_act_flag_mem [          0] = 0000101001110011
-# wr_data_act_mem [          0] = e5b9000087b7d20000a800c100000000
-# wr_data_wei_flag_mem [          0] = 111000101
-# wr_data_wei_mem [          0] = 01
+# wr_data_act_mem [          0] = e5b900
+# wr_data_wei_flag_mem [          0] = 001000101
+# wr_data_wei_mem [          1] = 00
 # wr_data_act_flag_mem [          1] = 0011100000000001
-# wr_data_act_mem [          1] = 8800000000000000000000d5c6a50000
-# wr_data_wei_mem [          1] = 02
+# wr_data_act_mem [          1] = 0087b7
+# wr_data_wei_mem [          2] = 01
 # wr_data_act_flag_mem [          2] = 0100011100000001
-# wr_data_act_mem [          2] = d900000000000000ba97f8000000dc00
-# wr_data_wei_mem [          2] = 03
+# wr_data_act_mem [          2] = d20000
+# wr_data_wei_mem [          3] = 00
 # wr_data_act_flag_mem [          3] = 0001000000000001
-# wr_data_act_mem [          3] = 920000000000000000000000d1000000
-# wr_data_wei_mem [          3] = 04
+# wr_data_act_mem [          3] = a800c1
+# wr_data_wei_mem [          4] = 00
 # wr_data_act_flag_mem [          4] = 0000100000011101
-# wr_data_act_mem [          4] = 8000e9bef0000000000000c400000000
-# wr_data_wei_mem [          4] = 05
+# wr_data_act_mem [          4] = 000000
+# wr_data_wei_mem [          5] = 00
 # wr_data_act_flag_mem [          5] = 0010000000001010
-# wr_data_act_mem [          5] = 008e00c1000000000000000000970000
-# wr_data_wei_mem [          5] = 06
+# wr_data_act_mem [          5] = 000000
+# wr_data_wei_mem [          6] = 02
 # wr_data_act_flag_mem [          6] = 0011001100000000
-# wr_data_act_mem [          6] = 0000000000000000d7c700008f8f0000
-# wr_data_wei_mem [          6] = xx
+# wr_data_act_mem [          6] = 880000
+# wr_data_wei_mem [          7] = 00
 # wr_data_act_flag_mem [          7] = 0010101011001010
-# wr_data_act_mem [          7] = 00a000cf0000899e00a6009400fd0000
-# wr_data_wei_mem [          7] = xx
+# wr_data_act_mem [          7] = 000000
+# wr_data_wei_mem [          8] = 03
 # wr_data_act_flag_mem [          8] = 1001000000000000
-# wr_data_act_mem [          8] = 000000000000000000000000c000008f
-# wr_data_wei_mem [          8] = xx
+# wr_data_act_mem [          8] = 000000
 # wr_data_act_flag_mem [          9] = 0000000010001001
-# wr_data_act_mem [          9] = 83000088000000b10000000000000000
+# wr_data_act_mem [          9] = 0000d5
 # wr_data_act_flag_mem [         10] = 0011001010101010
-# wr_data_act_mem [         10] = 00e800d100cd008d00a800008ae40000
+# wr_data_act_mem [         10] = c6a500
 # wr_data_act_flag_mem [         11] = 0000011000001000
-# wr_data_act_mem [         11] = 000000df0000000000b8a60000000000
+# wr_data_act_mem [         11] = 000000
 # wr_data_act_flag_mem [         12] = 0000010101000000
-# wr_data_act_mem [         12] = 00000000000082009a00920000000000
+# wr_data_act_mem [         12] = d90000
 # wr_data_act_flag_mem [         13] = 0101001101000110
-# wr_data_act_mem [         13] = 00e292000000c300a4f20000fc00a800
+# wr_data_act_mem [         13] = 000000
 # wr_data_act_flag_mem [         14] = 1010000100100110
-# wr_data_act_mem [         14] = 00cdec0000a60000ce00000000aa00be
+# wr_data_act_mem [         14] = 0000ba
 # wr_data_act_flag_mem [         15] = 1001110000000000
-# wr_data_act_mem [         15] = 00000000000000000000ed8e990000da
-# ** Warning: (vsim-8233) ../src/sub_modules/weight.v(82): Index 9 into array dimension [8:0] is out of bounds.
-#    Time: 830 ps  Iteration: 2  Instance: /mem_controller_tb/mem_controller/weight
-# ** Warning: (vsim-8233) ../src/sub_modules/weight.v(81): Index 9 into array dimension [8:0] is out of bounds.
-#    Time: 830 ps  Iteration: 2  Instance: /mem_controller_tb/mem_controller/weight
-# ** Note: $finish    : ../src/top/mem_controller_tb.v(96)
-#    Time: 5040 ps  Iteration: 0  Instance: /mem_controller_tb
+# wr_data_act_mem [         15] = 97f800
+# wr_data_act_mem [         16] = 0000dc
+# wr_data_act_mem [         17] = 000000
+# wr_data_act_mem [         18] = 920000
+# wr_data_act_mem [         19] = 000000
+# wr_data_act_mem [         20] = 000000
+# wr_data_act_mem [         21] = 000000
+# wr_data_act_mem [         22] = d10000
+# wr_data_act_mem [         23] = 000000
+# wr_data_act_mem [         24] = 8000e9
+# wr_data_act_mem [         25] = bef000
+# wr_data_act_mem [         26] = 000000
+# wr_data_act_mem [         27] = 0000c4
+# wr_data_act_mem [         28] = 000000
+# wr_data_act_mem [         29] = 000000
+# wr_data_act_mem [         30] = 008e00
+# wr_data_act_mem [         31] = c10000
+# wr_data_act_mem [         32] = 000000
+# wr_data_act_mem [         33] = 000000
+# wr_data_act_mem [         34] = 009700
+# wr_data_act_mem [         35] = 000000
+# wr_data_act_mem [         36] = 000000
+# wr_data_act_mem [         37] = 000000
+# wr_data_act_mem [         38] = 0000d7
+# wr_data_act_mem [         39] = c70000
+# wr_data_act_mem [         40] = 8f8f00
+# wr_data_act_mem [         41] = 000000
+# wr_data_act_mem [         42] = 00a000
+# wr_data_act_mem [         43] = cf0000
+# wr_data_act_mem [         44] = 899e00
+# wr_data_act_mem [         45] = a60094
+# wr_data_act_mem [         46] = 00fd00
+# wr_data_act_mem [         47] = 000000
+# wr_data_act_mem [         48] = 000000
+# wr_data_act_mem [         49] = 000000
+# wr_data_act_mem [         50] = 000000
+# wr_data_act_mem [         51] = 000000
+# wr_data_act_mem [         52] = c00000
+# wr_data_act_mem [         53] = 8f0000
+# wr_data_act_mem [         54] = 830000
+# wr_data_act_mem [         55] = 880000
+# wr_data_act_mem [         56] = 00b100
+# wr_data_act_mem [         57] = 000000
+# wr_data_act_mem [         58] = 000000
+# wr_data_act_mem [         59] = 000000
+# wr_data_act_mem [         60] = 00e800
+# wr_data_act_mem [         61] = d100cd
+# wr_data_act_mem [         62] = 008d00
+# wr_data_act_mem [         63] = a80000
+# wr_data_act_mem [         64] = 8ae400
+# wr_data_act_mem [         65] = 000000
+# wr_data_act_mem [         66] = 000000
+# wr_data_act_mem [         67] = df0000
+# wr_data_act_mem [         68] = 000000
+# wr_data_act_mem [         69] = b8a600
+# wr_data_act_mem [         70] = 000000
+# wr_data_act_mem [         71] = 000000
+# wr_data_act_mem [         72] = 000000
+# wr_data_act_mem [         73] = 000000
+# wr_data_act_mem [         74] = 82009a
+# wr_data_act_mem [         75] = 009200
+# wr_data_act_mem [         76] = 000000
+# wr_data_act_mem [         77] = 000000
+# wr_data_act_mem [         78] = 00e292
+# wr_data_act_mem [         79] = 000000
+# wr_data_act_mem [         80] = c300a4
+# wr_data_act_mem [         81] = f20000
+# wr_data_act_mem [         82] = fc00a8
+# wr_data_act_mem [         83] = 000000
+# wr_data_act_mem [         84] = 00cdec
+# wr_data_act_mem [         85] = 0000a6
+# wr_data_act_mem [         86] = 0000ce
+# wr_data_act_mem [         87] = 000000
+# wr_data_act_mem [         88] = 00aa00
+# wr_data_act_mem [         89] = be0000
+# wr_data_act_mem [         90] = 000000
+# wr_data_act_mem [         91] = 000000
+# wr_data_act_mem [         92] = 000000
+# wr_data_act_mem [         93] = 00ed8e
+# wr_data_act_mem [         94] = 990000
+# wr_data_act_mem [         95] = da0000
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(371): Index 16 into array dimension [15:0] is out of bounds.
+#    Time: 922500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(244): Index 96 into array dimension [95:0] is out of bounds.
+#    Time: 947500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(244): Index 97 into array dimension [95:0] is out of bounds.
+#    Time: 947500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(244): Index 98 into array dimension [95:0] is out of bounds.
+#    Time: 947500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(243): Index 99 into array dimension [95:0] is out of bounds.
+#    Time: 947500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(243): Index 100 into array dimension [95:0] is out of bounds.
+#    Time: 947500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(243): Index 101 into array dimension [95:0] is out of bounds.
+#    Time: 947500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(371): Index 17 into array dimension [15:0] is out of bounds.
+#    Time: 947500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Note: $finish    : ../src/top/mem_controller_tb.v(61)
+#    Time: 1256 ns  Iteration: 0  Instance: /mem_controller_tb

@@ -1,3 +1,3 @@
 Command Line: vfast -o mem_controller_tb.fsdb mem_controller_tb.vcd
 uname(WinNT DESKTOP-K4PJT3U 6.2.9200  Intel Pentium)
-au time 0 0.0 0.0 delta 7810520 7290880 total 7819264 7819264
+au time 1 0.0 0.0 delta 7744984 7225344 total 7753728 7753728

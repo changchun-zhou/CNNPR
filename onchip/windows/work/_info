@@ -3,202 +3,111 @@ K3
 13
 cModel Technology
 Z0 dF:\1-DL_hardware\CNNPR\onchip\windows
-vactivation
-!i10b 1
-Z1 !s100 PGMX8=7z[Tib1IVo0DIE^1
-Z2 I`9YQ9mkQ<CgFc7=_A@fCS3
-Z3 VE^<K;LEhNd0[:9:T_j4k=1
-Z4 dF:\1-DL_hardware\CNNPR\onchip\windows
-Z5 w1560346896
-Z6 8../src/sub_modules/activation.v
-Z7 F../src/sub_modules/activation.v
-L0 1
-Z8 OE;L;10.1a;51
-r1
-!s85 0
-31
-Z9 !s108 1561110247.762000
-Z10 !s107 ../src/sub_modules/sipo.v|../src/sub_modules/weight.v|../src/sub_modules/seq2parallel.v|../src/sub_modules/seq2index.v|../src/sub_modules/ram.v|../src/sub_modules/loop_count.v|../src/sub_modules/FSM_3.v|../src/sub_modules/delay.v|../src/sub_modules/column_parallel.v|../src/sub_modules/activation.v|../src/top/mem_controller.v|../src/top/mem_controller_tb.v|
-Z11 !s90 -lint|-f|vf|
-Z12 o-lint -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
-vcolumn_parallel
-!i10b 1
-Z13 !s100 QE=EgdGZk2ld=_7F`3HNE0
-Z14 I3z>>^AFo]ZbMi1mJ;4^BT0
-Z15 VLG@;LJj;MT`@4RGnRV3<Z0
-R4
-Z16 w1560136779
-Z17 8../src/sub_modules/column_parallel.v
-Z18 F../src/sub_modules/column_parallel.v
-L0 1
-R8
-r1
-!s85 0
-31
-R9
-R10
-R11
-R12
 vdelay
 !i10b 1
-Z19 !s100 ]]`iMXYA[iC6R22L9fUK]3
-Z20 I;Y:5?BCcn0o5EI:PURC=I3
-Z21 VO9<D6=W:8J5BB@O37[k6O1
-R4
-Z22 w1560842709
-Z23 8../src/sub_modules/delay.v
-Z24 F../src/sub_modules/delay.v
-L0 1
-R8
+VO9<D6=W:8J5BB@O37[k6O1
 r1
 !s85 0
 31
-R9
-R10
-R11
-R12
-vFSM_3
-!i10b 1
-Z25 !s100 d0ojYEAYkl;Z_V72C`zzz3
-Z26 IR>Bhhbo`_Xa@DDaY4Ye2g3
-Z27 VSMCKGaJiV6^oWXJa1]7S;2
-R4
-Z28 w1559998326
-Z29 8../src/sub_modules/FSM_3.v
-Z30 F../src/sub_modules/FSM_3.v
+I6:mei<n`7mZQ7CK]JSJ6C2
+Z1 dF:\1-DL_hardware\CNNPR\onchip\windows
+w1561194328
+8../src/sub_modules/delay.v
+F../src/sub_modules/delay.v
 L0 1
-R8
-r1
-!s85 0
-31
-R9
-R10
-R11
-R12
-Z31 n@f@s@m_3
+Z2 OE;L;10.1a;51
+Z3 !s108 1562397108.070000
+Z4 !s107 def_params.vh|../src/sub_modules/weight.v|../src/sub_modules/seq2index.v|../src/sub_modules/loop_count.v|../src/sub_modules/delay.v|../src/top/mem_controller.v|../src/top/mem_controller_tb.v|
+Z5 !s90 -lint|-f|vf|
+Z6 o-lint -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 l0AVc^Ca8GEE;1fijMJTJ2
 vloop_count
-!i10b 1
-Z32 !s100 3P?d_`7A7@GzKd@`0_B>A0
-Z33 Izj9nOFzXfl@B;d7IGo2C31
-Z34 Vg<F5<oQ^lWk=QXk<aOdhY2
-R4
-Z35 w1559998340
-Z36 8../src/sub_modules/loop_count.v
-Z37 F../src/sub_modules/loop_count.v
-L0 1
-R8
+V;7EkS8BBnFCF1X@dj<0891
 r1
-!s85 0
 31
-R9
-R10
-R11
-R12
+Iadn75hON^7Zz`bF]D3RRS3
+R1
+w1561194578
+8../src/sub_modules/loop_count.v
+F../src/sub_modules/loop_count.v
+L0 1
+R2
+R3
+R4
+R5
+R6
+!i10b 1
+!s85 0
+!s100 M7Q[3_QdNRm:YmWYbClze2
 vmem_controller
-!i10b 1
-Z38 !s100 Ul]Q:P;z0BZTNNVQ_J1g92
-Z39 Idbo[Z]cNCB2aaDR_B[oF51
-Z40 VdVN1J9Daf5HkIkmdhzNIb0
-R4
-Z41 w1560156547
-Z42 8../src/top/mem_controller.v
-Z43 F../src/top/mem_controller.v
-L0 3
-R8
+VJK_EY`igbDCTQCNR^bCD[2
 r1
-!s85 0
 31
-R9
-R10
-R11
-R12
+INQKOOjE@a`z@LNB][f]kh0
+R1
+w1562223894
+8../src/top/mem_controller.v
+F../src/top/mem_controller.v
+L0 16
+R2
+R3
+R4
+R5
+R6
+!i10b 1
+!s85 0
+!s100 BDRYoEE26W^^Odf3d3K9O3
 vmem_controller_tb
-!i10b 1
-Z44 !s100 6iRUkTb;JhA9Ge;4X@1R`1
-Z45 IhZ@2IOiW5AVBl_[HB@BNk3
-Z46 Va]H]W4`Y33Z?S22OgKDhY1
-R4
-Z47 w1560915482
-Z48 8../src/top/mem_controller_tb.v
-Z49 F../src/top/mem_controller_tb.v
-L0 37
-R8
+V[hgaV]TQ?hSno1Cmz]_^61
 r1
-!s85 0
 31
-R9
-R10
-R11
-R12
-vram
-!i10b 1
-Z50 !s100 Ab7OPX4TCBQ;clZETVn793
-Z51 IYFEi]hzZf18UgYLoP?]730
-Z52 Vz?aG7bA;2DI<FT8862kaT3
+IENk^U=cIZ[>AozAJTz4870
+R1
+w1562397093
+8../src/top/mem_controller_tb.v
+F../src/top/mem_controller_tb.v
+L0 8
+R2
+R3
 R4
-Z53 w1560348198
-Z54 8../src/sub_modules/ram.v
-Z55 F../src/sub_modules/ram.v
-L0 1
-R8
-r1
+R5
+R6
+!i10b 1
 !s85 0
-31
-R9
-R10
-R11
-R12
+!s100 d@T7igTcYGT5cagzWKcU62
 vseq2index
-!i10b 1
-Z56 !s100 J^gHST5jgP7TacEQ<87eW3
-Z57 IeUkoMh6[bSKU5:4fEW>6h3
-Z58 VAXWPZmaKVVHKBElDEe32E3
-R4
-Z59 w1560152833
-Z60 8../src/sub_modules/seq2index.v
-Z61 F../src/sub_modules/seq2index.v
-L0 1
-R8
+V=hWgPJ0]kbh=6mK?>EBZ`2
 r1
-!s85 0
 31
-R9
-R10
-R11
-R12
-vseq2parallel
-!i10b 1
-Z62 !s100 <`G3@0J[<H0T]CdIz`Va82
-Z63 Ifb`9RI]oFJW1eK?I5O^5O3
-Z64 V8V]oRONQJU=LPXcaSjg683
+IW8WB3TIda?DooIPkZk6AI2
+R1
+w1561259589
+8../src/sub_modules/seq2index.v
+F../src/sub_modules/seq2index.v
+L0 2
+R2
+R3
 R4
-Z65 w1560780306
-Z66 8../src/sub_modules/seq2parallel.v
-Z67 F../src/sub_modules/seq2parallel.v
-L0 3
-R8
-r1
+R5
+R6
+!i10b 1
 !s85 0
-31
-R9
-R10
-R11
-R12
+!s100 i6WMo^=ecH85HUmP]G:2A0
 vweight
-!i10b 1
-Z68 !s100 ><QFie>Tm_]WM2Ei0VNjF1
-Z69 I>:5`RclK7YS1T=ddYbaaP1
-Z70 V?Xgg3mJRlO0MT[1ELPl@[1
-R4
-Z71 w1560136622
-Z72 8../src/sub_modules/weight.v
-Z73 F../src/sub_modules/weight.v
-L0 1
-R8
+VH3zNQCAY:2o57cVIM4]8C2
 r1
-!s85 0
 31
-R9
-R10
-R11
-R12
+Ih3mZXSmBJTCFdIjk4cB8U3
+R1
+w1562155483
+8../src/sub_modules/weight.v
+F../src/sub_modules/weight.v
+L0 2
+R2
+R3
+R4
+R5
+R6
+!i10b 1
+!s85 0
+!s100 a^U:TS7b=LC558Z]9LI5b3

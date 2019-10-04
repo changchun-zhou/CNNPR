@@ -1,0 +1,3 @@
+Command Line: vfast -o mem_controller_tb.fsdb mem_controller_tb.vcd
+uname(WinNT DESKTOP-K4PJT3U 6.2.9200  Intel Pentium)
+au time 0 0.0 0.0 delta 7740840 7217152 total 7749632 7749632

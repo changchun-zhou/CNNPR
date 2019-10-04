@@ -1,0 +1,352 @@
+# vsim -do {run -all} -c -novopt work.mem_controller_tb 
+# Loading D:\ApplicationProgram\Debussy\share\PLI\modelsim_pli\WINNT\novas.dll
+# Loading D:\ApplicationProgram\Modelsim10.1a\win32\modelsim_pli54\WINNT\novas.dll
+# //  ModelSim SE 10.1a Feb 22 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing F:\1-DL_hardware\CNNPR\onchip\mem_controller_20190706\windows\work.mem_controller_tb
+# Loading work.mem_controller_tb
+# Refreshing F:\1-DL_hardware\CNNPR\onchip\mem_controller_20190706\windows\work.mem_controller
+# Loading work.mem_controller
+# Refreshing F:\1-DL_hardware\CNNPR\onchip\mem_controller_20190706\windows\work.loop_count
+# Loading work.loop_count
+# Refreshing F:\1-DL_hardware\CNNPR\onchip\mem_controller_20190706\windows\work.seq2index
+# Loading work.seq2index
+# Refreshing F:\1-DL_hardware\CNNPR\onchip\mem_controller_20190706\windows\work.weight
+# Loading work.weight
+# Refreshing F:\1-DL_hardware\CNNPR\onchip\mem_controller_20190706\windows\work.delay
+# Loading work.delay
+# ** Warning: (vsim-3015) ../src/top/mem_controller.v(444): [PCDPC] - Port size (2 or 2) does not match connection size (4) for port 'count_val_num'. The port definition is at: ../src/sub_modules/weight.v(19).
+# 
+#         Region: /mem_controller_tb/mem_controller/weight
+# run -all 
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 20 of file "./DAT/wr_data_act_flag.dat". (Current address [16], address range [0:15])    : ../src/top/mem_controller_tb.v(73)
+#    Time: 0 ps  Iteration: 0  Instance: /mem_controller_tb
+# wr_data_wei_mem [          0] = 00
+# wr_data_act_flag_mem [          0] = 0000101001110011
+# wr_data_act_mem [          0] = e5b900
+# wr_data_wei_flag_mem [          0] = 001000101
+# wr_data_wei_mem [          1] = 00
+# wr_data_act_flag_mem [          1] = 0011100000000001
+# wr_data_act_mem [          1] = 0087b7
+# wr_data_wei_mem [          2] = 01
+# wr_data_act_flag_mem [          2] = 0100011100000001
+# wr_data_act_mem [          2] = d20000
+# wr_data_wei_mem [          3] = 00
+# wr_data_act_flag_mem [          3] = 0001000000000001
+# wr_data_act_mem [          3] = a800c1
+# wr_data_wei_mem [          4] = 00
+# wr_data_act_flag_mem [          4] = 0000100000011101
+# wr_data_act_mem [          4] = 000000
+# wr_data_wei_mem [          5] = 00
+# wr_data_act_flag_mem [          5] = 0010000000001010
+# wr_data_act_mem [          5] = 000000
+# wr_data_wei_mem [          6] = 02
+# wr_data_act_flag_mem [          6] = 0011001100000000
+# wr_data_act_mem [          6] = 880000
+# wr_data_wei_mem [          7] = 00
+# wr_data_act_flag_mem [          7] = 0010101011001010
+# wr_data_act_mem [          7] = 000000
+# wr_data_wei_mem [          8] = 03
+# wr_data_act_flag_mem [          8] = 1001000000000000
+# wr_data_act_mem [          8] = 000000
+# wr_data_act_flag_mem [          9] = 0000000010001001
+# wr_data_act_mem [          9] = 0000d5
+# wr_data_act_flag_mem [         10] = 0011001010101010
+# wr_data_act_mem [         10] = c6a500
+# wr_data_act_flag_mem [         11] = 0000011000001000
+# wr_data_act_mem [         11] = 000000
+# wr_data_act_flag_mem [         12] = 0000010101000000
+# wr_data_act_mem [         12] = d90000
+# wr_data_act_flag_mem [         13] = 0101001101000110
+# wr_data_act_mem [         13] = 000000
+# wr_data_act_flag_mem [         14] = 1010000100100110
+# wr_data_act_mem [         14] = 0000ba
+# wr_data_act_flag_mem [         15] = 1001110000000000
+# wr_data_act_mem [         15] = 97f800
+# wr_data_act_mem [         16] = 0000dc
+# wr_data_act_mem [         17] = 000000
+# wr_data_act_mem [         18] = 920000
+# wr_data_act_mem [         19] = 000000
+# wr_data_act_mem [         20] = 000000
+# wr_data_act_mem [         21] = 000000
+# wr_data_act_mem [         22] = d10000
+# wr_data_act_mem [         23] = 000000
+# wr_data_act_mem [         24] = 8000e9
+# wr_data_act_mem [         25] = bef000
+# wr_data_act_mem [         26] = 000000
+# wr_data_act_mem [         27] = 0000c4
+# wr_data_act_mem [         28] = 000000
+# wr_data_act_mem [         29] = 000000
+# wr_data_act_mem [         30] = 008e00
+# wr_data_act_mem [         31] = c10000
+# wr_data_act_mem [         32] = 000000
+# wr_data_act_mem [         33] = 000000
+# wr_data_act_mem [         34] = 009700
+# wr_data_act_mem [         35] = 000000
+# wr_data_act_mem [         36] = 000000
+# wr_data_act_mem [         37] = 000000
+# wr_data_act_mem [         38] = 0000d7
+# wr_data_act_mem [         39] = c70000
+# wr_data_act_mem [         40] = 8f8f00
+# wr_data_act_mem [         41] = 000000
+# wr_data_act_mem [         42] = 00a000
+# wr_data_act_mem [         43] = cf0000
+# wr_data_act_mem [         44] = 899e00
+# wr_data_act_mem [         45] = a60094
+# wr_data_act_mem [         46] = 00fd00
+# wr_data_act_mem [         47] = 000000
+# wr_data_act_mem [         48] = 000000
+# wr_data_act_mem [         49] = 000000
+# wr_data_act_mem [         50] = 000000
+# wr_data_act_mem [         51] = 000000
+# wr_data_act_mem [         52] = c00000
+# wr_data_act_mem [         53] = 8f0000
+# wr_data_act_mem [         54] = 830000
+# wr_data_act_mem [         55] = 880000
+# wr_data_act_mem [         56] = 00b100
+# wr_data_act_mem [         57] = 000000
+# wr_data_act_mem [         58] = 000000
+# wr_data_act_mem [         59] = 000000
+# wr_data_act_mem [         60] = 00e800
+# wr_data_act_mem [         61] = d100cd
+# wr_data_act_mem [         62] = 008d00
+# wr_data_act_mem [         63] = a80000
+# wr_data_act_mem [         64] = 8ae400
+# wr_data_act_mem [         65] = 000000
+# wr_data_act_mem [         66] = 000000
+# wr_data_act_mem [         67] = df0000
+# wr_data_act_mem [         68] = 000000
+# wr_data_act_mem [         69] = b8a600
+# wr_data_act_mem [         70] = 000000
+# wr_data_act_mem [         71] = 000000
+# wr_data_act_mem [         72] = 000000
+# wr_data_act_mem [         73] = 000000
+# wr_data_act_mem [         74] = 82009a
+# wr_data_act_mem [         75] = 009200
+# wr_data_act_mem [         76] = 000000
+# wr_data_act_mem [         77] = 000000
+# wr_data_act_mem [         78] = 00e292
+# wr_data_act_mem [         79] = 000000
+# wr_data_act_mem [         80] = c300a4
+# wr_data_act_mem [         81] = f20000
+# wr_data_act_mem [         82] = fc00a8
+# wr_data_act_mem [         83] = 000000
+# wr_data_act_mem [         84] = 00cdec
+# wr_data_act_mem [         85] = 0000a6
+# wr_data_act_mem [         86] = 0000ce
+# wr_data_act_mem [         87] = 000000
+# wr_data_act_mem [         88] = 00aa00
+# wr_data_act_mem [         89] = be0000
+# wr_data_act_mem [         90] = 000000
+# wr_data_act_mem [         91] = 000000
+# wr_data_act_mem [         92] = 000000
+# wr_data_act_mem [         93] = 00ed8e
+# wr_data_act_mem [         94] = 990000
+# wr_data_act_mem [         95] = da0000
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(383): Index 16 into array dimension [15:0] is out of bounds.
+#    Time: 917500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(383): Index 16 into array dimension [15:0] is out of bounds.
+#    Time: 927500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 96 into array dimension [95:0] is out of bounds.
+#    Time: 977500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 102 into array dimension [95:0] is out of bounds.
+#    Time: 977500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 97 into array dimension [95:0] is out of bounds.
+#    Time: 982500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 103 into array dimension [95:0] is out of bounds.
+#    Time: 982500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(383): Index 16 into array dimension [15:0] is out of bounds.
+#    Time: 982500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 98 into array dimension [95:0] is out of bounds.
+#    Time: 987500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 104 into array dimension [95:0] is out of bounds.
+#    Time: 987500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 99 into array dimension [95:0] is out of bounds.
+#    Time: 992500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 105 into array dimension [95:0] is out of bounds.
+#    Time: 992500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 100 into array dimension [95:0] is out of bounds.
+#    Time: 997500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 106 into array dimension [95:0] is out of bounds.
+#    Time: 997500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 101 into array dimension [95:0] is out of bounds.
+#    Time: 1002500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 107 into array dimension [95:0] is out of bounds.
+#    Time: 1002500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 96 into array dimension [95:0] is out of bounds.
+#    Time: 1007500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 102 into array dimension [95:0] is out of bounds.
+#    Time: 1007500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 97 into array dimension [95:0] is out of bounds.
+#    Time: 1012500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 103 into array dimension [95:0] is out of bounds.
+#    Time: 1012500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 98 into array dimension [95:0] is out of bounds.
+#    Time: 1032500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 104 into array dimension [95:0] is out of bounds.
+#    Time: 1032500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 99 into array dimension [95:0] is out of bounds.
+#    Time: 1042500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 105 into array dimension [95:0] is out of bounds.
+#    Time: 1042500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 100 into array dimension [95:0] is out of bounds.
+#    Time: 1052500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 106 into array dimension [95:0] is out of bounds.
+#    Time: 1052500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 101 into array dimension [95:0] is out of bounds.
+#    Time: 1062500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 107 into array dimension [95:0] is out of bounds.
+#    Time: 1062500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(240): Index 108 into array dimension [95:0] is out of bounds.
+#    Time: 1072500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 114 into array dimension [95:0] is out of bounds.
+#    Time: 1072500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 120 into array dimension [95:0] is out of bounds.
+#    Time: 1072500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(240): Index 109 into array dimension [95:0] is out of bounds.
+#    Time: 1077500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 115 into array dimension [95:0] is out of bounds.
+#    Time: 1077500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 121 into array dimension [95:0] is out of bounds.
+#    Time: 1077500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(240): Index 110 into array dimension [95:0] is out of bounds.
+#    Time: 1082500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 116 into array dimension [95:0] is out of bounds.
+#    Time: 1082500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 122 into array dimension [95:0] is out of bounds.
+#    Time: 1082500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(240): Index 111 into array dimension [95:0] is out of bounds.
+#    Time: 1087500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 117 into array dimension [95:0] is out of bounds.
+#    Time: 1087500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 123 into array dimension [95:0] is out of bounds.
+#    Time: 1087500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(240): Index 112 into array dimension [95:0] is out of bounds.
+#    Time: 1092500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 118 into array dimension [95:0] is out of bounds.
+#    Time: 1092500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 124 into array dimension [95:0] is out of bounds.
+#    Time: 1092500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(240): Index 113 into array dimension [95:0] is out of bounds.
+#    Time: 1097500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 119 into array dimension [95:0] is out of bounds.
+#    Time: 1097500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 125 into array dimension [95:0] is out of bounds.
+#    Time: 1097500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(240): Index 108 into array dimension [95:0] is out of bounds.
+#    Time: 1102500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 114 into array dimension [95:0] is out of bounds.
+#    Time: 1102500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 120 into array dimension [95:0] is out of bounds.
+#    Time: 1102500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(240): Index 109 into array dimension [95:0] is out of bounds.
+#    Time: 1107500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 115 into array dimension [95:0] is out of bounds.
+#    Time: 1107500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 121 into array dimension [95:0] is out of bounds.
+#    Time: 1107500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(240): Index 110 into array dimension [95:0] is out of bounds.
+#    Time: 1127500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 116 into array dimension [95:0] is out of bounds.
+#    Time: 1127500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 122 into array dimension [95:0] is out of bounds.
+#    Time: 1127500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(240): Index 111 into array dimension [95:0] is out of bounds.
+#    Time: 1137500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 117 into array dimension [95:0] is out of bounds.
+#    Time: 1137500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 123 into array dimension [95:0] is out of bounds.
+#    Time: 1137500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(240): Index 112 into array dimension [95:0] is out of bounds.
+#    Time: 1147500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 118 into array dimension [95:0] is out of bounds.
+#    Time: 1147500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 124 into array dimension [95:0] is out of bounds.
+#    Time: 1147500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(240): Index 113 into array dimension [95:0] is out of bounds.
+#    Time: 1157500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 119 into array dimension [95:0] is out of bounds.
+#    Time: 1157500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 125 into array dimension [95:0] is out of bounds.
+#    Time: 1157500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(240): Index 126 into array dimension [95:0] is out of bounds.
+#    Time: 1167500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 132 into array dimension [95:0] is out of bounds.
+#    Time: 1167500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 138 into array dimension [95:0] is out of bounds.
+#    Time: 1167500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(240): Index 127 into array dimension [95:0] is out of bounds.
+#    Time: 1172500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 133 into array dimension [95:0] is out of bounds.
+#    Time: 1172500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 139 into array dimension [95:0] is out of bounds.
+#    Time: 1172500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 96 into array dimension [95:0] is out of bounds.
+#    Time: 1652500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 102 into array dimension [95:0] is out of bounds.
+#    Time: 1652500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 97 into array dimension [95:0] is out of bounds.
+#    Time: 1657500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 103 into array dimension [95:0] is out of bounds.
+#    Time: 1657500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 98 into array dimension [95:0] is out of bounds.
+#    Time: 1662500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 104 into array dimension [95:0] is out of bounds.
+#    Time: 1662500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 99 into array dimension [95:0] is out of bounds.
+#    Time: 1667500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 105 into array dimension [95:0] is out of bounds.
+#    Time: 1667500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 100 into array dimension [95:0] is out of bounds.
+#    Time: 1672500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 106 into array dimension [95:0] is out of bounds.
+#    Time: 1672500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 101 into array dimension [95:0] is out of bounds.
+#    Time: 1677500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 107 into array dimension [95:0] is out of bounds.
+#    Time: 1677500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 96 into array dimension [95:0] is out of bounds.
+#    Time: 1697500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 102 into array dimension [95:0] is out of bounds.
+#    Time: 1697500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 97 into array dimension [95:0] is out of bounds.
+#    Time: 1707500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 103 into array dimension [95:0] is out of bounds.
+#    Time: 1707500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 98 into array dimension [95:0] is out of bounds.
+#    Time: 1717500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 104 into array dimension [95:0] is out of bounds.
+#    Time: 1717500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 99 into array dimension [95:0] is out of bounds.
+#    Time: 1727500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 105 into array dimension [95:0] is out of bounds.
+#    Time: 1727500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 100 into array dimension [95:0] is out of bounds.
+#    Time: 1737500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 106 into array dimension [95:0] is out of bounds.
+#    Time: 1737500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 101 into array dimension [95:0] is out of bounds.
+#    Time: 1742500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 107 into array dimension [95:0] is out of bounds.
+#    Time: 1742500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(240): Index 108 into array dimension [95:0] is out of bounds.
+#    Time: 1747500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 114 into array dimension [95:0] is out of bounds.
+#    Time: 1747500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 120 into array dimension [95:0] is out of bounds.
+#    Time: 1747500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(240): Index 109 into array dimension [95:0] is out of bounds.
+#    Time: 1752500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(239): Index 115 into array dimension [95:0] is out of bounds.
+#    Time: 1752500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Warning: (vsim-8233) ../src/top/mem_controller.v(238): Index 121 into array dimension [95:0] is out of bounds.
+#    Time: 1752500 ps  Iteration: 1  Instance: /mem_controller_tb/mem_controller
+# ** Note: $finish    : ../src/top/mem_controller_tb.v(138)
+#    Time: 1753 ns  Iteration: 0  Instance: /mem_controller_tb

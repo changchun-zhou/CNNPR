@@ -248,15 +248,23 @@ Comment-FontBold = FALSE
 Comment-FontItalic = FALSE
 Comment-FontOverride = FALSE
 [FSM_Dlg-Print]
-Orientation = Landscape       
+Orientation = Landscape 
 [Form]
 version = 5.4v9
-wave\getSignal.fm = 462,317,888,605
-wave\sigType.fm = 101,101,480,379
 wave\laMain.fm = 100,100,644,492
-propertyTable.fm = 101,73,496,676
-wave\waveTopWin.fm = 542,600,960,332
-hb\hbTopWin.fm = 0,0,804,500
+propertyTable.fm = 109,73,496,676
+wave\getSignal.fm = 255,225,888,568
+wave\sigType.fm = 109,107,480,379
+wave\waveTopWin.fm = 0,205,1038,589
+hb\hbTopWin.fm = 182,163,804,500
+dumpWnd.fm = 100,100,540,573
+wave\saveSignalAttribute.fm = 100,100,710,360
+wave\saveSig.fm = 247,348,749,566
+wave\extractSelSignals.fm = 269,400,551,355
+openfile.fm = 100,100,749,560
+wave\restoreSig.fm = 100,100,749,566
+wave\openWFile.fm = 100,100,749,596
+wave\activeFile.fm = 100,100,546,239
 [General]
 version = 5.4v9
 SignalCaseInSensitive = FALSE
@@ -264,7 +272,7 @@ SignalCaseInSensitive = FALSE
 ErrWindow_Font = Helvetica_M_R_12
 [HB]
 ViewSchematic = FALSE
-windowLayout = 0 0 804 500 182 214 784 194
+windowLayout = 182 163 804 500 182 214 784 194
 import_filter = *.v; *.vc; *.f
 designTreeFont = -adobe-helvetica-medium-r-normal--14-*-75-75-*-*-iso8859-*
 import_filter_vhdl = *.vhd; *.vhdl; *.f
@@ -436,7 +444,7 @@ hdlPslComment = ID_GREEN2
 hdlSynopsysHead = ID_GREEN2
 hdlSynopsysComment = ID_GREEN2
 [Text.1]
-viewport = 0 0 804 500 45
+viewport = 182 163 804 500 45
 [TextPrinter]
 Orientation = Landscape
 Indicator = FALSE
@@ -522,7 +530,7 @@ ViFont = "Clean 14"
 ViBG = gray
 ViFG = black
 [Wave]
-viewPort = 54 237 960 332 100 65
+viewPort = -7 205 1038 589 264 306
 signalSpacing = 3
 digitalSignalHeight = 15
 analogSignalHeight = 98
@@ -716,6 +724,7 @@ open_file_dir
 open_rc_file_dir
 showGroupTree = TRUE
 hierGroupDelim = /
+RecentFile1 = F:\1-DL_hardware\CNNPR\onchip\mem_controller_tb.fsdb
 [eco]
 IsFreezeSilicon = FALSE
 ManageMode = INSTANCE_NAME
@@ -777,7 +786,7 @@ syncCursor = FALSE
 font = Fixed 14
 syncCursor = FALSE
 [schematics]
-viewport = 0 0 804 500
+viewport = 182 163 804 500
 schBackgroundColor = black lineSolid
 schBodyColor = orange6 lineSolid
 schAsmBodyColor = blue7 lineSolid
@@ -928,7 +937,7 @@ SigHeight = 20
 Spacing = 10
 SnapToTransitions = TRUE
 [turboSchema_Printer_Options]
-Orientation = Landscape       
+Orientation = Landscape 
 [verisity]
 TPLanguage = Verilog
 TPName = "Verisity SpeXsim"
@@ -938,7 +947,7 @@ AddImportArgument = FALSE
 LineBreakWithScope = TRUE
 StopAfterCompileOption = -s
 [wave.0]
-viewPort = 50 214 960 332 100 65
+viewPort = -7 205 1038 589 264 306
 [wave.1]
 viewPort = 127 219 960 332 100 65
 [wave.2]
